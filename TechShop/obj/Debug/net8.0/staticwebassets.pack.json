@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\TechShop\\TechShop\\wwwroot\\images\\logo_laptopaz (2).jpg",
+      "PackagePath": "staticwebassets\\images\\logo_laptopaz (2).jpg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\TechShop\\TechShop\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

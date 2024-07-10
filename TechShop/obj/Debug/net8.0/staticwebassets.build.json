@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zgDKjURanv4+4/9NdKJ5eaAkGEpR5n+tUCmQUusWRSA=",
+  "Hash": "oZkh4S1/ebGdnmKzBobRPNA3xP0zAxr4qArjxWHE5RI=",
   "Source": "TechShop",
   "BasePath": "_content/TechShop",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\TechShop\\TechShop\\wwwroot\\images\\logo_laptopaz (2).jpg",
+      "SourceId": "TechShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\TechShop\\TechShop\\wwwroot\\",
+      "BasePath": "_content/TechShop",
+      "RelativePath": "images/logo_laptopaz (2).jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo_laptopaz (2).jpg"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\TechShop\\TechShop\\wwwroot\\js\\site.js",
