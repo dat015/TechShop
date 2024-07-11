@@ -19,20 +19,23 @@
             </div>
             <div class="header__search">
                 <input type="text" class="header__search--input" placeholder="Search here" />
-                <i class="bi bi-search"></i>
+                <div class="header__search--icon">
+                    <i class="bi bi-search" style="color :white;"></i>
+                </div>
+                
 
             </div>
             <div class ="header__phone">
                 <div class="header__phone--item">
-                    <i class="bi bi-telephone"></i>
-                    <b>HOTLINE</b>
+                    <i class="bi bi-telephone-fill" style="color :red;"></i>
+                    <b style="color :red;">HOTLINE</b>
                     <br />  
                     <b>0825 233 233</b>
                 </div>
             </div>
             <div class="header__shopcart">
                 <div class="header__shopcart--item">
-                    <i class="bi bi-cart3"></i>
+                    <i class="bi bi-cart-fill" style="color :red;"></i>
                     <br/>
                     <span>
                         Giỏ hàng 
@@ -40,10 +43,44 @@
                 </div>
             </div>
         </div>
-        <nav class="main-menu">
-
-        </nav>
+       
     </header>
+    <nav class="main-menu">
+
+        <div class="main-menu__item">
+            
+            <i class="bi bi-laptop" id="main-menu__item--icon" style="color :white;"></i>
+
+            <b >
+               LAPTOP MỚI
+            </b>
+            
+
+        </div>
+        <div class="main-menu__item">
+            <i class="bi bi-windows" id="main-menu__item--icon" style="color :white;"></i>
+            <b>SURFACE</b>
+
+        </div>
+        <div class="main-menu__item">
+            <i class="bi bi-laptop" id="main-menu__item--icon" style="color :white;"></i>
+            <b>LAPTOP LIKE NEW</b>
+
+        </div>
+        <div class="main-menu__item" >
+            
+            <i class="bi bi-fire" id="main-menu__item--icon" style="color :white;"></i>
+            <b>KHUYẾN MÃI</b>
+
+        </div>
+        <div class="main-menu__item" >
+            <i class="bi bi-wallet2" id="main-menu__item--icon" style="color :white;"></i>
+            <b>TRẢ GÓP</b>
+
+        </div>
+
+
+    </nav>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

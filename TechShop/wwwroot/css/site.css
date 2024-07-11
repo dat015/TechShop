@@ -19,28 +19,65 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .header__search--input {
     width: 500px;
     padding: 5px;
     font-size: 1rem;
+    border: 1px solid blue;
+}
+
+.header__search--icon {
+    background-color: #2b80dd;
+    height: 37px;
+    width: 40px;
+    text-align: center;
 }
 
 .header__search i {
-    margin-left: 10px;
-    font-size: 1.5rem;
-    cursor: pointer;
+    margin-left: 5px;
+    font-size: 1.7rem;
 }
+
+.header__phone--item .header__shopcart--item {
+    font-size: 20px;
+}
+
+
 
 .header__phone--item, .header__shopcart--item {
     flex: 1;
     text-align: center;
-    padding-top : 20px;
+    padding-top: 20px;
 }
 
 
+.main-menu {
+    display: flex;
+    background-color: #2b80dd;
+    justify-content: space-around;
+    color : white;
+    font-size:15px;
+    height : 35px;
+    padding-top :6px;
+}
+.main-menu__item{
+    justify-content: space-between;
+    
+    
+}
+    .main-menu__item a {
+        text-decoration: none;
+    }
+    
 
+    .main-menu__item:hover {
+        color: #3FA2F6;
+    }
+
+.main-menu__item--icon{
+    font-size:15px;
+}
 
 @media (min-width: 768px) {
     html {
