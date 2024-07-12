@@ -1,7 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using TechShop.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DeflautConnection")
+    ));
 
 var app = builder.Build();
 
