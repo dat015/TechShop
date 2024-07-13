@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TechShop.Models
 {
@@ -16,6 +17,7 @@ namespace TechShop.Models
         [MaxLength(255, ErrorMessage ="Name of description can't exceed 255 characters")]
         public string desciption { get; set; }
         public string img { get; set; }
-
+        [ForeignKey("CategoryId")]
+        public CategoryModel ProductOfCategory { get; set; }
     }
 }
