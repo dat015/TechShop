@@ -11,5 +11,6 @@ namespace TechShop.Models
         public string CategoryName { get; set; }
         [MaxLength(255,ErrorMessage ="The value of Description can't exceed 255 characters.")]
         public string Description {  get; set; }
+
     }
 }
