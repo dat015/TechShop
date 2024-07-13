@@ -4106,19 +4106,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\FPTSHOP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\TechShop\\TechShop\\TechShop.csproj",
+      "projectUniqueName": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\TechShop.csproj",
       "projectName": "TechShop",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\TechShop\\TechShop\\TechShop.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\TechShop\\TechShop\\obj\\",
+      "projectPath": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\TechShop.csproj",
+      "packagesPath": "C:\\Users\\FPTSHOP\\.nuget\\packages\\",
+      "outputPath": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\FPTSHOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

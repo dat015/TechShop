@@ -21,8 +21,8 @@ namespace TechShop.Models
 
         [Required]
         private DateTime OrderDate { get; set; }
-
-        [ForeignKey(Cate_id)]]
-        private CategoryModel Cate { get; set; }
+        [Required]
+        [ForeignKey("CateID")]
+        public CategoryModel? Cate { get; set; }
     }
 }
