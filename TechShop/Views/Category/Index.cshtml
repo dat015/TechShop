@@ -1,1 +1,37 @@
-﻿<h1>Category Controller</h1>
+﻿@model IEnumerable<Category>
+
+@{
+    ViewData["Title"] = "Category List";
+}
+<div class="container pt-4 pd-3">
+    <div class="row">
+        <div class="col-6 text-primary">Categories List</div>
+        <div class="col-6 text-end">
+            <a asp-controller="Category" asp-action="Create" class="btn btn-primary">
+                <i class="bi bi-plus-circle-fill"></i> Create New Category
+            </a>
+        </div>
+    </div>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>
+                    Category Name
+                </th>
+                <th>
+                    Category Description
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach(var cat in Model.OrderBy(n => n.CategoryName))
+            {
+                <tr>
+                    <th>@cat.CategoryName</th>
+                    <th>@cat.Description</th>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
