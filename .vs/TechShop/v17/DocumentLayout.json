@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\ASP-DOT-NET\\Projects\\TechShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Migrations\\20240714061646_AddAllTablesToDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TechShop\\Migrations\\20240714061646_AddAllTablesToDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\asp-dot-net\\projects\\techshop\\techshop\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\asp-dot-net\\projects\\techshop\\techshop\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\asp-dot-net\\projects\\techshop\\techshop\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\asp-dot-net\\projects\\techshop\\techshop\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,25 +27,37 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240714061646_AddAllTablesToDb.cs",
-              "DocumentMoniker": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Migrations\\20240714061646_AddAllTablesToDb.cs",
-              "RelativeDocumentMoniker": "TechShop\\Migrations\\20240714061646_AddAllTablesToDb.cs",
-              "ToolTip": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Migrations\\20240714061646_AddAllTablesToDb.cs",
-              "RelativeToolTip": "TechShop\\Migrations\\20240714061646_AddAllTablesToDb.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T06:16:46.987Z",
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "TechShop\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "TechShop\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T17:47:18.693Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "TechShop\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "TechShop\\Data\\ApplicationDbContext.cs",
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "TechShop\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "TechShop\\Controllers\\CategoryController.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T06:16:20.464Z",
+              "WhenOpened": "2024-07-14T14:22:14.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "TechShop\\Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "TechShop\\Views\\Category\\Index.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T13:26:41.642Z",
               "EditorCaption": ""
             }
           ]
