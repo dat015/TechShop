@@ -50,7 +50,6 @@
     </style>
 </head>
 <body>
-    @RenderBody()
     <div>
         <!-- Sidebar Start -->
         <div class="sidebar pe-4 pb-3">
@@ -73,7 +72,7 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i>Manager Elements</a>
                         <div class="dropdown-menu bg-transparent border-0">
-                            <a asp-controller="Category" asp-action="Create" class="dropdown-item">Categories</a>
+                            <a asp-controller="Category" asp-action="Index" class="dropdown-item">Categories</a>
                             <a href="#" class="dropdown-item">Product</a>
                             <a href="#" class="dropdown-item">Orders</a>
                             <a href="#" class="dropdown-item">Payment Methods</a>
@@ -189,6 +188,8 @@
                 </div>
             </nav>
             <!-- Navbar End -->
+            @RenderBody()
+
             <!-- Footer Start -->
             <div class="container-fluid pt-4 px-4">
                 <div class="bg-light rounded-top p-4">
@@ -203,6 +204,7 @@
                     </div>
                 </div>
             </div>
+
             <!-- Footer End -->
         </div>
         <!-- Content End -->
