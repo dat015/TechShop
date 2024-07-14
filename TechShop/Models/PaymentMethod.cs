@@ -3,18 +3,14 @@ using System.ComponentModel.DataAnnotations;
 
 namespace TechShop.Models
 {
-    public class Payment_method
+    public class PaymentMethod
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        private int PaymentMethodId { get; set; }
+        public int PaymentMethodId { get; set; }
 
         [Required]
         [StringLength(100, ErrorMessage = "Method name can't exceed 100 characters")]
-        private string? MethodName { get; set; }
-
-        [Required]
-        [ForeignKey("orderID")]
-        private Order? order { get; set; }
+        public string? MethodName { get; set; }
     }
 }

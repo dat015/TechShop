@@ -8,26 +8,26 @@ namespace TechShop.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Required]
-        private int Id {  get; set; }
+        public int Id {  get; set; }
 
         [Required]
         [StringLength(100, ErrorMessage = "Name of banch can't exceed 100 characters")]
-        private string? Name { get; set; }
+        public string? Name { get; set; }
 
         [Required]
         [StringLength(50, ErrorMessage = "Name of banch can't exceed 50 characters")]
-        private string? email { get; set; }
+        public string? Email { get; set; }
         [Required]
         [StringLength(100, ErrorMessage = "Name of banch can't exceed 100 characters")]
-        private string? address { get; set; }
+        public string? Address { get; set; }
         [Required]
         [StringLength(10, ErrorMessage = "Name of banch can't exceed 10 characters")]
-        private string? phone_number { get; set; }
+        public string? PhoneNumber { get; set; }
         [Required]
-        private Boolean? role {  get; set; }
+        public Boolean? role {  get; set; }
         [Required]
         [StringLength(50, ErrorMessage = "Name of banch can't exceed 50 characters")]
-        private string? password { get; set; }
+        public string? Password { get; set; }
 
     }
 }
