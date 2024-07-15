@@ -3,26 +3,24 @@
   "WorkspaceRootPath": "D:\\ASP-DOT-NET\\Projects\\TechShop\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\asp-dot-net\\projects\\techshop\\techshop\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-=======
-      "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\asp-dot-net\\projects\\techshop\\techshop\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
->>>>>>> CRUDFunction-Category
+      "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\asp-dot-net\\projects\\techshop\\techshop\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\asp-dot-net\\projects\\techshop\\techshop\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\asp-dot-net\\projects\\techshop\\techshop\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-=======
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\asp-dot-net\\projects\\techshop\\techshop\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
->>>>>>> CRUDFunction-Category
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\asp-dot-net\\projects\\techshop\\techshop\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,22 +30,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-<<<<<<< HEAD
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "TechShop\\Models\\Category.cs",
+              "ToolTip": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Models\\Category.cs",
+              "RelativeToolTip": "TechShop\\Models\\Category.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T17:30:25.529Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-=======
-              "DocumentIndex": 2,
->>>>>>> CRUDFunction-Category
-              "Title": "_LayoutAdmin.cshtml",
-              "DocumentMoniker": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeDocumentMoniker": "TechShop\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ToolTip": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeToolTip": "TechShop\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TechShop\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "TechShop\\Views\\Category\\Edit.cshtml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-14T17:47:18.693Z",
+              "WhenOpened": "2024-07-15T16:07:00.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "TechShop\\Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "TechShop\\Views\\Category\\Index.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T13:26:41.642Z",
               "EditorCaption": ""
             },
             {
@@ -64,19 +81,14 @@
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 2,
-=======
-              "DocumentIndex": 0,
->>>>>>> CRUDFunction-Category
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "TechShop\\Views\\Category\\Index.cshtml",
-              "ToolTip": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "TechShop\\Views\\Category\\Index.cshtml",
+              "DocumentIndex": 3,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "TechShop\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "TechShop\\Views\\Shared\\_LayoutAdmin.cshtml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-14T13:26:41.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T17:47:18.693Z"
             }
           ]
         }
