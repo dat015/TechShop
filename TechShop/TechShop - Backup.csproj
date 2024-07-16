@@ -60,7 +60,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="NewFolder\" />
+    <Folder Include="Areas\Admin\Views\OrderDetail\" />
+    <Folder Include="Areas\Admin\Views\PaymentMethod\" />
+    <Folder Include="Areas\Admin\Views\Order\" />
   </ItemGroup>
 
 </Project>
