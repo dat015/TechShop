@@ -59,4 +59,10 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Views\OrderDetail\" />
+    <Folder Include="Areas\Admin\Views\PaymentMethod\" />
+    <Folder Include="Areas\Admin\Views\Order\" />
+  </ItemGroup>
+
 </Project>
