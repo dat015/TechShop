@@ -2,8 +2,7 @@
 
 namespace TechShop.Areas.Admin.Controllers
 {
-    [Area("Admin")]
-    public class HomeController : Controller
+    public class OrderDetailController : Controller
     {
         public IActionResult Index()
         {
