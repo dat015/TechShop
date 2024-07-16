@@ -29,7 +29,7 @@
         </thead>
 
         <tbody>
-            @foreach(var cat in Model.OrderBy(n => n.CategoryName))
+            @foreach(var cat in Model)
             {
                 <tr>
                     <th>@cat.CategoryId</th>

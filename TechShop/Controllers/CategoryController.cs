@@ -24,13 +24,13 @@ namespace TechShop.Controllers
         [HttpPost]
         public IActionResult Create(Category category)
         {
-            if (category == null)
+            if (ModelState.IsValid)
             {
-                return NotFound();
+                _db.Categories.Add(category);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
             }
-            _db.Categories.Add(category);
-            _db.SaveChanges();
-            return RedirectToAction("Index");
+            return View();
         }
 
         public IActionResult Edit(int? id)
@@ -49,13 +49,13 @@ namespace TechShop.Controllers
         [HttpPost]
         public IActionResult Edit(Category obj)
         {
-            if (obj == null)
+            if (ModelState.IsValid)
             {
-                return NotFound();
+                _db.Categories.Update(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
             }
-            _db.Categories.Update(obj);
-            _db.SaveChanges();
-            return RedirectToAction("Index");
+            return View();
         }
         public IActionResult Delete(int? id)
         {
