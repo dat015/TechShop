@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\TechShop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\techshop\\techshop\\wwwroot\\css\\home_content.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\wwwroot\\css\\home_content.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\techshop\\techshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -63,19 +67,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "home_content.css",
+              "DocumentMoniker": "D:\\TechShop\\TechShop\\wwwroot\\css\\home_content.css",
+              "RelativeDocumentMoniker": "TechShop\\wwwroot\\css\\home_content.css",
+              "ToolTip": "D:\\TechShop\\TechShop\\wwwroot\\css\\home_content.css",
+              "RelativeToolTip": "TechShop\\wwwroot\\css\\home_content.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-16T02:34:07.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\TechShop\\TechShop\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "TechShop\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\TechShop\\TechShop\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "TechShop\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-16T02:13:47.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T02:13:47.85Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\TechShop\\TechShop\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "TechShop\\Views\\_ViewStart.cshtml",
@@ -83,12 +99,11 @@
               "RelativeToolTip": "TechShop\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-16T02:11:40.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T02:11:40.414Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\TechShop\\TechShop\\appsettings.json",
               "RelativeDocumentMoniker": "TechShop\\appsettings.json",
@@ -96,12 +111,11 @@
               "RelativeToolTip": "TechShop\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-16T02:11:39.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T02:11:39.369Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\TechShop\\TechShop\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "TechShop\\Controllers\\HomeController.cs",
@@ -109,12 +123,11 @@
               "RelativeToolTip": "TechShop\\Controllers\\HomeController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAAwB8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T02:11:33.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T02:11:33.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\TechShop\\TechShop\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "TechShop\\Views\\Home\\Index.cshtml",
@@ -122,12 +135,11 @@
               "RelativeToolTip": "TechShop\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-16T02:07:22.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T02:07:22.374Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\TechShop\\TechShop\\Views\\Category\\Delete.cshtml",
               "RelativeDocumentMoniker": "TechShop\\Views\\Category\\Delete.cshtml",
@@ -138,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\TechShop\\TechShop\\Models\\Category.cs",
               "RelativeDocumentMoniker": "TechShop\\Models\\Category.cs",
@@ -149,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\TechShop\\TechShop\\Views\\Category\\Edit.cshtml",
               "RelativeDocumentMoniker": "TechShop\\Views\\Category\\Edit.cshtml",
@@ -160,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\TechShop\\TechShop\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "TechShop\\Views\\Category\\Index.cshtml",
@@ -171,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "D:\\TechShop\\TechShop\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "TechShop\\Controllers\\CategoryController.cs",
@@ -182,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_LayoutAdmin.cshtml",
               "DocumentMoniker": "D:\\TechShop\\TechShop\\Views\\Shared\\_LayoutAdmin.cshtml",
               "RelativeDocumentMoniker": "TechShop\\Views\\Shared\\_LayoutAdmin.cshtml",
@@ -190,12 +202,11 @@
               "RelativeToolTip": "TechShop\\Views\\Shared\\_LayoutAdmin.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-14T17:47:18.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T17:47:18.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\TechShop\\TechShop\\Views\\Category\\Create.cshtml",
               "RelativeDocumentMoniker": "TechShop\\Views\\Category\\Create.cshtml",

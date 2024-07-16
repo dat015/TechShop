@@ -1,4 +1,7 @@
-﻿.panner {
+﻿body {
+    background-color: #f5f5f5;
+}
+.panner {
     display: flex;
     justify-content: space-between;
 }
