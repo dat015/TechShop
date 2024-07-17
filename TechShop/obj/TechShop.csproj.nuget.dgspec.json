@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TechShop\\TechShop\\TechShop.csproj": {}
+    "D:\\C#\\TechShop\\TechShop\\TechShop.csproj": {}
   },
   "projects": {
-    "D:\\TechShop\\TechShop\\TechShop.csproj": {
+    "D:\\C#\\TechShop\\TechShop\\TechShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TechShop\\TechShop\\TechShop.csproj",
+        "projectUniqueName": "D:\\C#\\TechShop\\TechShop\\TechShop.csproj",
         "projectName": "TechShop",
-        "projectPath": "D:\\TechShop\\TechShop\\TechShop.csproj",
+        "projectPath": "D:\\C#\\TechShop\\TechShop\\TechShop.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\TechShop\\TechShop\\obj\\",
+        "outputPath": "D:\\C#\\TechShop\\TechShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
