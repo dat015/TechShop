@@ -7847,19 +7847,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\FPTSHOP\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\TechShop.csproj",
+      "projectUniqueName": "D:\\C#\\TechShop\\TechShop\\TechShop.csproj",
       "projectName": "TechShop",
-      "projectPath": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\TechShop.csproj",
-      "packagesPath": "C:\\Users\\FPTSHOP\\.nuget\\packages\\",
-      "outputPath": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\obj\\",
+      "projectPath": "D:\\C#\\TechShop\\TechShop\\TechShop.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\C#\\TechShop\\TechShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\FPTSHOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7929,7 +7929,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400-preview.0.24324.5/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
