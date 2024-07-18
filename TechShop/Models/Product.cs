@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using TechShop.Repository.Validation;
 
 namespace TechShop.Models
 {
@@ -8,18 +9,22 @@ namespace TechShop.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ProductId { get; set; }
-        [Required]
-        [MaxLength(1000, ErrorMessage ="Name of product can't exceed 100 characters")]
+        [Required, MaxLength(1000, ErrorMessage = "Yêu cầu nhập tên sản phẩm")]
         public string ProductName { get; set; }
+        [Required,Range(0,1000000000, ErrorMessage ="Yêu cầu nhập giá sản phẩm")]
         public decimal Price { get; set; }
-        [MaxLength(10000, ErrorMessage = "Name of banch can't exceed 100 characters")]
+        [Required,MaxLength(10000, ErrorMessage = "Yêu cầu nhập nhãn hàng")]
         public string Branch { get; set; }
+        [Required, Range(0,1000, ErrorMessage ="Yêu cầu nhập số lượng trong kho")]
         public int StockQuantity { get; set; }
-        [MaxLength(10000, ErrorMessage ="Name of description can't exceed 255 characters")]
+        [Required, MaxLength(10000, ErrorMessage ="Yêu cầu nhập mô tả")]
         public string Description { get; set; }
         public string Img { get; set; }
         [ForeignKey("CategoryId")]
         public int CategoryId { get; set; }
-        public Category ProductOfCategory { get; set; }
+        public Category CategoryOfProducts { get; set; }
+        [NotMapped]
+        [FileExtension]
+        public IFormFile ImageUpLoad { get; set; }
     }
 }

@@ -405,6 +405,10 @@
       "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
     },
     {
+      "Id": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\media\\products\\0e978889-c9e6-4b14-adb8-f107733cdce8_cf0321bd-f11b-41bd-aebd-5e7393ad8e9b.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\0e978889-c9e6-4b14-adb8-f107733cdce8_cf0321bd-f11b-41bd-aebd-5e7393ad8e9b.jpg"
+    },
+    {
       "Id": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap.scss"
     },
