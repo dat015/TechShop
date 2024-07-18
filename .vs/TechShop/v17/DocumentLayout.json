@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "D:\\ASP-DOT-NET\\Projects\\TechShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\asp-dot-net\\projects\\techshop\\techshop\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\asp-dot-net\\projects\\techshop\\techshop\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\asp-dot-net\\projects\\techshop\\techshop\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\asp-dot-net\\projects\\techshop\\techshop\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\asp-dot-net\\projects\\techshop\\techshop\\areas\\admin\\controllers\\paymentmethodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\areas\\admin\\controllers\\paymentmethodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\asp-dot-net\\projects\\techshop\\techshop\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\asp-dot-net\\projects\\techshop\\techshop\\areas\\admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\areas\\admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\asp-dot-net\\projects\\techshop\\techshop\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\asp-dot-net\\projects\\techshop\\techshop\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\asp-dot-net\\projects\\techshop\\techshop\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|d:\\asp-dot-net\\projects\\techshop\\techshop\\areas\\admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\areas\\admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,79 +34,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PaymentMethodController.cs",
-              "DocumentMoniker": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Areas\\Admin\\Controllers\\PaymentMethodController.cs",
-              "RelativeDocumentMoniker": "TechShop\\Areas\\Admin\\Controllers\\PaymentMethodController.cs",
-              "ToolTip": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Areas\\Admin\\Controllers\\PaymentMethodController.cs",
-              "RelativeToolTip": "TechShop\\Areas\\Admin\\Controllers\\PaymentMethodController.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T16:23:54.629Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "TechShop\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "TechShop\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T17:07:26.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "TechShop\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "TechShop\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "TechShop\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "TechShop\\Areas\\Admin\\Views\\Product\\Create.cshtml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-16T16:21:18.62Z",
+              "WhenOpened": "2024-07-18T15:42:27.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "TechShop\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "TechShop\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T14:34:57.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "TechShop\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ToolTip": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "TechShop\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T04:45:16.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
               "RelativeDocumentMoniker": "TechShop\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
               "ToolTip": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
               "RelativeToolTip": "TechShop\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-16T16:19:54.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T04:42:56.893Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
               "RelativeDocumentMoniker": "TechShop\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
               "ToolTip": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
               "RelativeToolTip": "TechShop\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-16T16:19:47.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "TechShop\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ToolTip": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "TechShop\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-16T16:19:44.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_LayoutAdmin.cshtml",
-              "DocumentMoniker": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeDocumentMoniker": "TechShop\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ToolTip": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeToolTip": "TechShop\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-16T16:19:41.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T04:42:47.941Z"
             }
           ]
         }

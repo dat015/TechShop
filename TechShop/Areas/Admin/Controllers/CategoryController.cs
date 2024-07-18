@@ -25,13 +25,16 @@ namespace TechShop.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Create(Category category)
         {
-            if (ModelState.IsValid)
+            Category lastCate = _db.Categories.OrderByDescending(db => db.CategoryId).FirstOrDefault();
+            int id = lastCate.CategoryId;
+            category.CategoryId = id + 1;
+            if (!ModelState.IsValid)
             {
-                _db.Categories.Add(category);
-                _db.SaveChanges();
-                return RedirectToAction("Index");
+                return NotFound();
             }
-            return View();
+            _db.Categories.Add(category);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
         }
 
         public IActionResult Edit(int? id)
