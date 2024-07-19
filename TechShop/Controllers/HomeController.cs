@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using TechShop.Models;
 using TechShop.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace TechShop.Controllers
 {
@@ -16,12 +17,11 @@ namespace TechShop.Controllers
             _db = db;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            List<Category> list_cate = _db.Categories.ToList();
-            List<Product> list_product = _db.Products.ToList();
+            List<Category> list_cate = await _db.Categories.ToListAsync();
+            List<Product> list_product = await _db.Products.ToListAsync();
             var viewModel = new HomeViewModel(list_cate, list_product);
-
 
             return View(viewModel);
         }
