@@ -27,6 +27,7 @@ namespace TechShop.Areas.Admin.Controllers
             return View();
         }
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Product product)
         {
             ViewBag.Categories = new SelectList(_db.Categories, "CategoryId", "CategoryName", product.CategoryId);
@@ -46,17 +47,15 @@ namespace TechShop.Areas.Admin.Controllers
             }
             else
             {
-                // tra ve True la da ton tai san pham co ten
-                /*bool isProductName = _db.Products.Any(p => p.ProductName.Equals(product.ProductName));
-                if (isProductName)
+                var existingProduct = _db.Products.FirstOrDefault(p => p.ProductName == product.ProductName);
+
+                if (existingProduct != null)
                 {
-                    ModelState.AddModelError("", "Sản phẩm đã có trong database");
-                    return View(product);
+                    // If the product name already exists, set an error message and return to the same view
+                    TempData["error"] = "Sản phẩm đã tồn tại !";
+                    return RedirectToAction("Create");
                 }
-                else
-                {
-                    
-                }*/
+
                 if (product.ImageUpLoad != null)
                 {
                     string uploadDir = Path.Combine(_webHostEnvironment.WebRootPath, "media/products");
@@ -69,10 +68,77 @@ namespace TechShop.Areas.Admin.Controllers
                     product.Img = imgName;
                 }
                 _db.Products.Add(product);
-                _db.SaveChanges();
+                await _db.SaveChangesAsync();
                 TempData["success"] = "Tạo thành công sản phẩm";
                 return RedirectToAction("Index");
             }
+        }
+
+        public async Task<IActionResult> Edit(int id)
+        {
+            if (id == 0)
+            {
+                return NotFound();
+            }
+            Product product = await _db.Products.FirstOrDefaultAsync(p => p.ProductId == id);
+            ViewBag.Categories = new SelectList(_db.Categories, "CategoryId", "CategoryName");
+            return View(product);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(Product product)
+        {
+            ViewBag.Categories = new SelectList(_db.Categories, "CategoryId", "CategoryName");
+            if (!ModelState.IsValid)
+            {
+                TempData["error"] = "Model chưa hợp lệ";
+                List<string> errors = new List<string>();
+                foreach (var value in ModelState.Values)
+                {
+                    foreach (var error in value.Errors)
+                    {
+                        errors.Add(error.ErrorMessage);
+                    }
+                }
+                string lstErrorMessage = string.Join('\n', errors);
+                return BadRequest(lstErrorMessage);
+            }
+            else
+            {
+                if (product.ImageUpLoad != null)
+                {
+                    string upLoadDir = Path.Combine(_webHostEnvironment.WebRootPath, "media/products");
+                    string imageName = Guid.NewGuid().ToString() + "_" + product.ImageUpLoad.FileName;
+                    string filePathImage = Path.Combine(upLoadDir, imageName);
+
+                    FileStream stream = new FileStream(filePathImage, FileMode.Create);
+                    await product.ImageUpLoad.CopyToAsync(stream);
+                    stream.Close();
+                    product.Img = imageName;
+                }
+                _db.Products.Update(product);
+                await _db.SaveChangesAsync();
+                TempData["success"]="Cập nhật sản phẩm thành công.";
+                return RedirectToAction("Index");
+            }
+        }
+
+        public async Task<IActionResult> Delete(int id)
+        {
+            Product product = await _db.Products.FirstOrDefaultAsync(p => p.ProductId.Equals(id));
+            if (!string.Equals(product.Img, "noname.jpg"))
+            {
+                string root = Path.Combine(_webHostEnvironment.WebRootPath, "media/products");
+                string pathImg = Path.Combine(root, product.Img);
+                if (System.IO.File.Exists(pathImg))
+                {
+                    System.IO.File.Delete(pathImg);
+                }
+            }
+            _db.Products.Remove(product);
+            await _db.SaveChangesAsync();
+            TempData["success"] = "Xóa sản phẩm thành công";
+            return RedirectToAction("Index");
         }
     }
 }
