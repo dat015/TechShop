@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>DASHMIN - Bootstrap Admin Template</title>
+    <title>@ViewData["Title"] Admin TechShop</title>
     <title>@ViewBag.Title</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
@@ -90,7 +90,7 @@
                             <a asp-controller="User" asp-action="Index" class="dropdown-item">User</a>
                         </div>
                     </div>
-                    <a href="#" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Widgets</a>
+                    <a asp-area="Admin" asp-controller="Product" asp-action="Create" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Add Product</a>
                     <a href="#" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Forms</a>
                     <a href="#" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Tables</a>
                     <a href="#" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Charts</a>
@@ -198,7 +198,15 @@
                 </div>
             </nav>
             <!-- Navbar End -->
-            @RenderBody()
+            <!--Section RenderBody-->
+            <section>
+                <div class="container">
+                    <div>
+                        @await Html.PartialAsync("_NotifyPartial")
+                        @RenderBody()
+                    </div>
+                </div>
+            </section>
 
             <!-- Footer Start -->
             <div class="container-fluid pt-4 px-4">

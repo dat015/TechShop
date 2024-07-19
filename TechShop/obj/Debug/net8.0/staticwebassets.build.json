@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "Ff7ZZL95uMCR185vuqn47ewq+nR8xnmbXPdCj0nO+54=",
+=======
+  "Hash": "7WFcFAQji9+R7o95eC2xftuOJ7Y2V+BLklBvQCS8gdQ=",
+>>>>>>> 88a4a85762fbdd17c0640d6f634005f5a01a910c
   "Source": "TechShop",
   "BasePath": "_content/TechShop",
   "Mode": "Default",
@@ -1936,7 +1940,30 @@
       "OriginalItemSpec": "wwwroot\\LICENSE.txt"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\READ-ME.txt",
+=======
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\media\\products\\0e978889-c9e6-4b14-adb8-f107733cdce8_cf0321bd-f11b-41bd-aebd-5e7393ad8e9b.jpg",
+      "SourceId": "TechShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
+      "BasePath": "_content/TechShop",
+      "RelativePath": "media/products/0e978889-c9e6-4b14-adb8-f107733cdce8_cf0321bd-f11b-41bd-aebd-5e7393ad8e9b.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\products\\0e978889-c9e6-4b14-adb8-f107733cdce8_cf0321bd-f11b-41bd-aebd-5e7393ad8e9b.jpg"
+    },
+    {
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\READ-ME.txt",
+>>>>>>> 88a4a85762fbdd17c0640d6f634005f5a01a910c
       "SourceId": "TechShop",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
