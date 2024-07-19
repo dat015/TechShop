@@ -132,3 +132,21 @@
     .info-item a:hover {
         color: blueviolet;
     }
+
+
+.breadcrumb .breadcrumb-item a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.dropdown {
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-top : 10px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
+.dropdown a{
+    text-decoration : none;
+}

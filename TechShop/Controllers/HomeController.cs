@@ -32,6 +32,11 @@ namespace TechShop.Controllers
             return View(list_product);
         }
 
+        public IActionResult Product()
+        {
+            return View();
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

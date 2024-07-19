@@ -1,0 +1,125 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Product Page";
+
+}
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Category</li>
+    </ol>
+</nav>
+<div class="panner">
+    <div id="carouselExampleCaptions"  style="width : 70%; height : auto;">
+        
+        <div class="carousel-inner">
+            
+                <img src="https://laptopaz.vn/media/banner/09_May33453011ecf2c5926c42fcb06ff9e9c0.jpg" class="d-block w-100" alt="...">
+           
+            
+        </div>
+
+    </div>
+    <div class="panner-mini">
+        <div class="item">
+            <img src="https://laptopaz.vn/media/banner/16_Julad41ed1b659dd0e8a872ff916f74e147.jpg" style="width : 370px;height: auto; " />
+        </div>
+        <div class="item">
+            <img src="https://laptopaz.vn/media/banner/16_Jul4108c462d737b7efd60795ea602b3212.jpg" style="width : 370px; height: auto;" />
+        </div>
+    </div>
+
+
+</div>
+
+<div class="list-choose" style="display : flex; background-color : white;     height : 45px;">
+    <div class="dropdown">
+        <a href="#" class="dropdown-toggle" type="text" data-bs-toggle="dropdown" aria-expanded="false">
+            Thương hiệu
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+    </div>
+    <div class="dropdown">
+        <a href="#" class="dropdown-toggle" type="text" data-bs-toggle="dropdown" aria-expanded="false">
+            Giá 
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+    </div>
+    <div class="dropdown">
+        <a href="#" class="dropdown-toggle" type="text" data-bs-toggle="dropdown" aria-expanded="false">
+            CPU
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+    </div>
+    <div class="dropdown">
+        <a href="#" class="dropdown-toggle" type="text" data-bs-toggle="dropdown" aria-expanded="false">
+            Cart VGA
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+    </div>
+    <div class="dropdown">
+        <a href="#" class="dropdown-toggle" type="text" data-bs-toggle="dropdown" aria-expanded="false">
+            RAM
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+    </div>
+    <div class="dropdown">
+        <a href="#" class="dropdown-toggle" type="text" data-bs-toggle="dropdown" aria-expanded="false">
+            Ổ cứng
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+    </div>
+    <div class="dropdown">
+        <a href="#" class="dropdown-toggle" type="text" data-bs-toggle="dropdown" aria-expanded="false">
+            Màn hình
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="sort">
+    <span>Sắp xếp theo</span>
+    <select onchange="location.href=this.value">
+        <option asp-controller="Home" asp-action="Product" asp-route-sort="latest">Mới nhất</option>
+        <option asp-controller="Home" asp-action="Product" asp-route-sort="price-asc">Giá: thấp -> cao</option>
+        <option asp-controller="Home" asp-action="Product" asp-route-sort="price-desc">Giá: cao -> thấp</option>
+        <option asp-controller="Home" asp-action="Product" asp-route-sort="view">Xem nhiều nhất</option>
+        <option asp-controller="Home" asp-action="product" asp-route-sort="comment">Nhiều nhận xét</option>
+        <option asp-controller="Home" asp-action="product" asp-route-sort="rating">Đánh giá cao nhất</option>
+        <option asp-controller="Home" asp-action="product" asp-route-sort="name">Tên A->Z</option>
+    </select>
+</div>
+
+
+    

@@ -9,9 +9,7 @@ header {
     display: flex;
     justify-content: space-around;
 }
-.header__logo{
-   
-}
+
 .headder__logo--img{
     height: 95px;
 }
@@ -62,19 +60,22 @@ header {
     height : 35px;
     padding-top :6px;
 }
-.main-menu__item{
+.main-menu__item {
     justify-content: space-between;
-    
-    
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
 }
-    .main-menu__item a {
-        text-decoration: none;
-    }
-    
 
-    .main-menu__item:hover {
+    .main-menu__item a {
+        color: white;
+        text-decoration: none;
+        font-weight : 700;
+    }  
+
+.main-menu__item a:hover {
         color: #3FA2F6;
-    }
+}
 
 .main-menu__item--icon{
     font-size:15px;
@@ -109,7 +110,7 @@ body{
     margin:0;
 }
 footer{
-    margin-top;
+    margin-top: 15px;
     font-size: 14px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

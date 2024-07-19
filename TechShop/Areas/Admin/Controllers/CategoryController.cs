@@ -3,8 +3,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using TechShop.Data;
 using TechShop.Models;
 
-namespace TechShop.Controllers
+namespace TechShop.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private readonly ApplicationDbContext _db;
