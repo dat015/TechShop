@@ -902,3 +902,4 @@ D:\C#\TechShop\TechShop\obj\Debug\net8.0\ref\TechShop.dll
 =======
 D:\ASP-DOT-NET\Projects\TechShop\TechShop\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
 >>>>>>> 88a4a85762fbdd17c0640d6f634005f5a01a910c
+D:\C#\TechShop\TechShop\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css

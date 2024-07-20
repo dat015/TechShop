@@ -6,10 +6,11 @@
     ViewData["Title"] = "Product Page";
 
 }
+@model ProductViewModel
 <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
     <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="#">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Category</li>
+        <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">@Model.Cate.CategoryName</li>
     </ol>
 </nav>
 <div class="panner">
@@ -110,16 +111,38 @@
 
 <div class="sort">
     <span>Sắp xếp theo</span>
-    <select onchange="location.href=this.value">
-        <option asp-controller="Home" asp-action="Product" asp-route-sort="latest">Mới nhất</option>
-        <option asp-controller="Home" asp-action="Product" asp-route-sort="price-asc">Giá: thấp -> cao</option>
-        <option asp-controller="Home" asp-action="Product" asp-route-sort="price-desc">Giá: cao -> thấp</option>
-        <option asp-controller="Home" asp-action="Product" asp-route-sort="view">Xem nhiều nhất</option>
-        <option asp-controller="Home" asp-action="product" asp-route-sort="comment">Nhiều nhận xét</option>
-        <option asp-controller="Home" asp-action="product" asp-route-sort="rating">Đánh giá cao nhất</option>
-        <option asp-controller="Home" asp-action="product" asp-route-sort="name">Tên A->Z</option>
-    </select>
+    <form asp-controller="Home" asp-action="Product" method="get">
+        <select name="sortOrder" onchange="this.form.submit()">
+            <option value="priceAsc">Giá: thấp -> cao</option>
+            <option value="priceDesc">Giá: cao -> thấp</option>
+            <option value="nameAsc">Tên A->Z</option>
+        </select>
+        <input type="hidden" name="cateId" value="@Model.Cate.CategoryId" />
+    </form>
 </div>
+
+<div class="product-items">
+    @foreach(var product in Model.Products)
+    {
+        <div class="item">
+
+            <a href="#">
+                <div class="img-item">
+                    <img src="@product.Img">
+                </div>
+                <span>
+                    @product.ProductName
+                </span>
+                <br />
+                <b>@product.Price</b>
+            </a>
+        </div>
+    }
+   
+    
+
+</div>
+
 
 
     

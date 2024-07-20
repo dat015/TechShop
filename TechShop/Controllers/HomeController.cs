@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using TechShop.Models;
 using TechShop.Data;
@@ -32,10 +32,45 @@ namespace TechShop.Controllers
             return View(list_product);
         }
 
-        public IActionResult Product()
+        public async Task<IActionResult> Product(string sortOrder, int? cateId)
         {
+            var products = _db.Products.AsQueryable();
+
+            if (cateId.HasValue)
+            {
+                products = products.Where(p => p.CategoryId == cateId.Value);
+            }
+
+            switch (sortOrder)
+            {
+                case "priceAsc":
+                    products = products.OrderBy(p => p.Price);
+                    break;
+                case "priceDesc":
+                    products = products.OrderByDescending(p => p.Price);
+                    break;
+                case "nameAsc":
+                    products = products.OrderBy(p => p.ProductName);
+                    break;
+                default:
+                    products = products.OrderBy(p => p.ProductName);
+                    break;
+            }
+
+            List<Product> result = await products.ToListAsync();
+
+           
+            Category category = await _db.Categories.FindAsync(cateId); 
+
+           
+            return View( new ProductViewModel(result, category)); 
+        }
+
+        public IActionResult Cart() {
             return View();
         }
+
+
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
