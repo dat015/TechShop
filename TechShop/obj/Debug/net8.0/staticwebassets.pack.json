@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\READ-ME.txt"
     },
     {
+      "Id": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\backend\\js\\site.js",
+      "PackagePath": "staticwebassets\\backend\\js\\site.js"
+    },
+    {
       "Id": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\blank.html",
       "PackagePath": "staticwebassets\\blank.html"
     },

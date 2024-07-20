@@ -40,11 +40,13 @@
                 <td>@pro.CategoryOfProducts.CategoryName</td>
                 <td>@pro.Branch</td>
                 <td>
-                    <a asp-controller="Product" asp-action="Edit" asp-route-id="@pro.ProductId" class="btn btn-warning btn-sm mt-3">
+                    <a asp-controller="Product" asp-action="Edit" asp-route-id="@pro.ProductId" 
+                        class="btn btn-warning btn-sm mt-3">
                         <i class="bi bi-pencil-square"></i> Sửa
                     </a>
 
-                    <a asp-controller="Product" asp-action="Delete" asp-route-id="@pro.ProductId" class="btn btn-danger btn-sm mt-3">
+                    <a asp-controller="Product" asp-action="Delete" asp-route-id="@pro.ProductId" 
+                        class="btn btn-danger btn-sm mt-3 confirmDeletion">
                         <i class="bi bi-trash"></i> Xóa
                     </a>
                 </td>

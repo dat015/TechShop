@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DOHiPBRbtVVSywW57whV/4AnU8rdq/gOBn+0l7xHxio=",
+  "Hash": "OloAU4SswdGoxMEJ3pjmen/lkHo1bGq/d3+TJTKvrYc=",
   "Source": "TechShop",
   "BasePath": "_content/TechShop",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\404.html"
+    },
+    {
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\backend\\js\\site.js",
+      "SourceId": "TechShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
+      "BasePath": "_content/TechShop",
+      "RelativePath": "backend/js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\backend\\js\\site.js"
     },
     {
       "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\blank.html",

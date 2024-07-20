@@ -44,6 +44,7 @@
             <label class="form-label">Image</label>
             <input asp-for="ImageUpLoad" class="form-control" />
             <span asp-validation-for="ImageUpLoad" class="text-danger"></span>
+            <img id="imgpreview" class="pt-2" />
         </div>
         <div class="row">
             <div class="col-6 mt-3">
@@ -64,4 +65,11 @@
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
+    <script>
+        $("#ImageUpLoad").change(
+            function(){
+                readURL(this);
+            }
+        )
+    </script>
 }
