@@ -85,7 +85,7 @@
         <div class="box-cate">
             <div class="title-box">
                 <div class="title">
-                    <h3><a href="#">@category.CategoryName</a></h3>
+                    <h3><a asp-controller="Home" asp-action="Product" asp-route-sortOrder="nameAsc" asp-route-cateId="@category.CategoryId" method="get">@category.CategoryName</a></h3>
                 </div>
                 <div class="list-price">
                     <div>
