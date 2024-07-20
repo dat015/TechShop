@@ -19,7 +19,7 @@ namespace TechShop.Models
         public int StockQuantity { get; set; }
         [Required, MaxLength(10000, ErrorMessage ="Yêu cầu nhập mô tả")]
         public string Description { get; set; }
-        public string Img { get; set; }
+        public string Img { get; set; } = "noname.jpg";
         [ForeignKey("CategoryId")]
         public int CategoryId { get; set; }
         public Category CategoryOfProducts { get; set; }

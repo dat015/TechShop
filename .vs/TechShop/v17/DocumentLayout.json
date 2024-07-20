@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "D:\\C#\\TechShop\\",
   "Documents": [
     {
@@ -52,10 +53,15 @@
       "RelativeMoniker": "D:0:0:{32EC9659-5E90-4F6B-8387-64214AEFB861}|TechShop\\TechShop.csproj|solutionrelative:techshop\\areas\\admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
+=======
+  "WorkspaceRootPath": "D:\\ASP-DOT-NET\\Projects\\TechShop\\",
+  "Documents": [],
+>>>>>>> f7936553da5165e9e16bc0a5d3becaddd512da34
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
+<<<<<<< HEAD
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -213,6 +219,9 @@
           ]
         }
       ]
+=======
+      "DocumentGroups": []
+>>>>>>> f7936553da5165e9e16bc0a5d3becaddd512da34
     }
   ]
 }
