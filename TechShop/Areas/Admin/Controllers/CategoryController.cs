@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using TechShop.Data;
 using TechShop.Models;
@@ -13,9 +14,9 @@ namespace TechShop.Areas.Admin.Controllers
         {
             _db = db;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            List<Category> lstCategory = _db.Categories.ToList();
+            List<Category> lstCategory = await _db.Categories.ToListAsync();
             return View(lstCategory);
         }
         public IActionResult Create()
@@ -23,67 +24,50 @@ namespace TechShop.Areas.Admin.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Create(Category category)
+        public async Task<IActionResult> Create(Category category)
         {
-            Category lastCate = _db.Categories.OrderByDescending(db => db.CategoryId).FirstOrDefault();
-            int id = lastCate.CategoryId;
-            category.CategoryId = id + 1;
             if (!ModelState.IsValid)
             {
-                return NotFound();
+                TempData["error"] = "Giá trị chưa hợp lệ. Kiểm tra lại.";
             }
             _db.Categories.Add(category);
-            _db.SaveChanges();
+            await _db.SaveChangesAsync();
+            TempData["success"] = "Thêm danh mục thành công.";
             return RedirectToAction("Index");
         }
 
-        public IActionResult Edit(int? id)
+        public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || id <= 0)
             {
                 return NotFound();
             }
-            Category category = _db.Categories.Where(i => i.CategoryId == id).FirstOrDefault();
-            if (category == null)
-            {
-                return NotFound();
-            }
+            Category category = await _db.Categories.Where(i => i.CategoryId == id).FirstOrDefaultAsync();
             return View(category);
         }
         [HttpPost]
-        public IActionResult Edit(Category obj)
+        public async Task<IActionResult> Edit(Category obj)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                _db.Categories.Update(obj);
-                _db.SaveChanges();
-                return RedirectToAction("Index");
+                TempData["error"] = "Giá trị chưa hợp lệ.Kiểm tra lại";
+                return View(obj);
             }
-            return View();
+            _db.Categories.Update(obj);
+            await _db.SaveChangesAsync();
+            TempData["success"]="Sửa danh mục thành công.";
+            return RedirectToAction("Index");
         }
-        public IActionResult Delete(int? id)
+        public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || id <= 0)
             {
                 return NotFound();
             }
-            Category obj = _db.Categories.Find(id);
-            return View(obj);
-        }
-        [HttpPost, ActionName("Delete")]
-        public IActionResult DeletePOST(int? id)
-        {
-            if (id == null || id <= 0)
-            {
-                return NotFound();
-            }
-            Category obj = _db.Categories.Find(id);
-            if (obj == null)
-            {
-                return NotFound();
-            }
+            Category obj = await _db.Categories.FindAsync(id);
             _db.Categories.Remove(obj);
-            _db.SaveChanges();
+            await _db.SaveChangesAsync();
+            TempData["success"] = "Xóa danh mục thành công.";
             return RedirectToAction("Index");
         }
     }
