@@ -14,13 +14,26 @@ namespace TechShop.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
+                name: "Branches",
+                columns: table => new
+                {
+                    BrandId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    BrandName = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Branches", x => x.BrandId);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Categories",
                 columns: table => new
                 {
                     CategoryId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    CategoryName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false)
+                    CategoryName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true)
                 },
                 constraints: table =>
                 {
@@ -66,15 +79,21 @@ namespace TechShop.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ProductName = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: false),
                     Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    Branch = table.Column<string>(type: "nvarchar(max)", maxLength: 10000, nullable: false),
                     StockQuantity = table.Column<int>(type: "int", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", maxLength: 10000, nullable: false),
-                    Img = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CategoryId = table.Column<int>(type: "int", nullable: false)
+                    Img = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    CategoryId = table.Column<int>(type: "int", nullable: false),
+                    BrandId = table.Column<int>(type: "int", nullable: false),
+                    BrandOfProductsBrandId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Products", x => x.ProductId);
+                    table.ForeignKey(
+                        name: "FK_Products_Branches_BrandOfProductsBrandId",
+                        column: x => x.BrandOfProductsBrandId,
+                        principalTable: "Branches",
+                        principalColumn: "BrandId");
                     table.ForeignKey(
                         name: "FK_Products_Categories_CategoryId",
                         column: x => x.CategoryId,
@@ -131,6 +150,19 @@ namespace TechShop.Migrations
                 });
 
             migrationBuilder.InsertData(
+                table: "Branches",
+                columns: new[] { "BrandId", "BrandName" },
+                values: new object[,]
+                {
+                    { 1, "Lenovo" },
+                    { 2, "Samsung" },
+                    { 3, "MSI" },
+                    { 4, "Apple" },
+                    { 5, "Intel" },
+                    { 6, "Dell" }
+                });
+
+            migrationBuilder.InsertData(
                 table: "Categories",
                 columns: new[] { "CategoryId", "CategoryName", "Description" },
                 values: new object[,]
@@ -160,16 +192,8 @@ namespace TechShop.Migrations
 
             migrationBuilder.InsertData(
                 table: "Products",
-                columns: new[] { "ProductId", "Branch", "CategoryId", "Description", "Img", "Price", "ProductName", "StockQuantity" },
-                values: new object[,]
-                {
-                    { 1, "Lenovo", 1, "Legion Y7000P 2024 là một chiếc Laptop hứa hẹn là một trong những sự lựa chọn tuyệt vời bởi thiết kế độc đáo, cá tính cùng với hiệu năng và những thông số kĩ thuật ấn tượng. Vậy nên đừng ngần ngại lựa chọn mua Legion Y7000P 2024 tại hệ thống của hàng của LaptopAZ.vn để được trải nghiệm sự tuyệt vời của chiếc Laptop này đem lại.", "https://laptopaz.vn/media/product/3174_", 21490000m, "Lenovo Thinkbook 16 G6+ 2024", 100 },
-                    { 2, "Lenovo", 2, "Laptop Lenovo ThinkBook 16 G6+ với hiệu năng mạnh mẽ cùng thiết kế thanh lịch, là sự lựa chọn phù hợp cho hầu hết tất cả mọi người", "https://laptopaz.vn/media/product/3174_", 29890000m, "Lenovo Legion Y7000P ", 100 },
-                    { 3, "Lenovo", 2, "mẫu laptop cao cấp của nhà Acer đã và đem lại những trải nghiệm tuyệt vời, cùng với những ưu điểm vượt trội", "https://laptopaz.vn/media/product/2947_helios_neo_2023.jpg", 29890000m, "Lenovo Legion 5 R7000 APH9", 100 },
-                    { 4, "Dell", 4, " Laptop Dell Inspiron 14 5430 là một chiếc laptop thiết kế sang trọng, gọn nhẹ, màn hình chất lượng đi kèm hiệu năng mạnh mẽ", "https://laptopaz.vn/media/product/2757_laptopaz_5430_chinh.png", 15990000m, "Dell Inspiron 14 5430", 100 },
-                    { 5, "Lenovo", 4, "Legion Y7000P 2024 là một chiếc Laptop hứa hẹn là một trong những sự lựa chọn tuyệt vời bởi thiết kế độc đáo, cá tính cùng với hiệu năng và những thông số kĩ thuật ấn tượng. Vậy nên đừng ngần ngại lựa chọn mua Legion Y7000P 2024 tại hệ thống của hàng của LaptopAZ.vn để được trải nghiệm sự tuyệt vời của chiếc Laptop này đem lại.", "https://laptopaz.vn/media/product/3239_lenovo_thinkbook_16_g7_2024.jpg", 21890000m, " Lenovo Thinkbook 16 G7 2024", 100 },
-                    { 6, "Surface", 5, "hiệu năng mạnh mẽ cùng thiết kế thanh lịch, là sự lựa chọn phù hợp", "https://laptopaz.vn/media/product/2556_surface_book_3_core_i7_32gb_1tb_15_inch_newseal_1601018373.jpg", 29890000m, "Surface Book 3", 100 }
-                });
+                columns: new[] { "ProductId", "BrandId", "BrandOfProductsBrandId", "CategoryId", "Description", "Img", "Price", "ProductName", "StockQuantity" },
+                values: new object[] { 1, 1, null, 1, "Legion Y7000P 2024 là một chiếc Laptop hứa hẹn là một trong những sự lựa chọn tuyệt vời bởi thiết kế độc đáo, cá tính cùng với hiệu năng và những thông số kĩ thuật ấn tượng. Vậy nên đừng ngần ngại lựa chọn mua Legion Y7000P 2024 tại hệ thống của hàng của LaptopAZ.vn để được trải nghiệm sự tuyệt vời của chiếc Laptop này đem lại.", "https://laptopaz.vn/media/product/3174_", 21490000m, "Lenovo Thinkbook 16 G6+ 2024", 100 });
 
             migrationBuilder.InsertData(
                 table: "DetailsOrders",
@@ -185,6 +209,11 @@ namespace TechShop.Migrations
                 name: "IX_Orders_PaymentMethodId",
                 table: "Orders",
                 column: "PaymentMethodId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Products_BrandOfProductsBrandId",
+                table: "Products",
+                column: "BrandOfProductsBrandId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Products_CategoryId",
@@ -209,6 +238,9 @@ namespace TechShop.Migrations
 
             migrationBuilder.DropTable(
                 name: "PaymentMethods");
+
+            migrationBuilder.DropTable(
+                name: "Branches");
 
             migrationBuilder.DropTable(
                 name: "Categories");

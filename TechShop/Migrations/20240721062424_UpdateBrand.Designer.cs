@@ -12,8 +12,8 @@ using TechShop.Data;
 namespace TechShop.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240714061646_AddAllTablesToDb")]
-    partial class AddAllTablesToDb
+    [Migration("20240721062424_UpdateBrand")]
+    partial class UpdateBrand
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -25,6 +25,55 @@ namespace TechShop.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("TechShop.Models.Brand", b =>
+                {
+                    b.Property<int>("BrandId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BrandId"));
+
+                    b.Property<string>("BrandName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("BrandId");
+
+                    b.ToTable("Brands");
+
+                    b.HasData(
+                        new
+                        {
+                            BrandId = 1,
+                            BrandName = "Lenovo"
+                        },
+                        new
+                        {
+                            BrandId = 2,
+                            BrandName = "Samsung"
+                        },
+                        new
+                        {
+                            BrandId = 3,
+                            BrandName = "MSI"
+                        },
+                        new
+                        {
+                            BrandId = 4,
+                            BrandName = "Apple"
+                        },
+                        new
+                        {
+                            BrandId = 5,
+                            BrandName = "Intel"
+                        },
+                        new
+                        {
+                            BrandId = 6,
+                            BrandName = "Dell"
+                        });
+                });
+
             modelBuilder.Entity("TechShop.Models.Category", b =>
                 {
                     b.Property<int>("CategoryId")
@@ -35,11 +84,9 @@ namespace TechShop.Migrations
 
                     b.Property<string>("CategoryName")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
@@ -193,10 +240,8 @@ namespace TechShop.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductId"));
 
-                    b.Property<string>("Branch")
-                        .IsRequired()
-                        .HasMaxLength(10000)
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("BrandId")
+                        .HasColumnType("int");
 
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
@@ -207,7 +252,6 @@ namespace TechShop.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Img")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
@@ -223,6 +267,8 @@ namespace TechShop.Migrations
 
                     b.HasKey("ProductId");
 
+                    b.HasIndex("BrandId");
+
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
@@ -231,67 +277,12 @@ namespace TechShop.Migrations
                         new
                         {
                             ProductId = 1,
-                            Branch = "Lenovo",
+                            BrandId = 1,
                             CategoryId = 1,
                             Description = "Legion Y7000P 2024 là một chiếc Laptop hứa hẹn là một trong những sự lựa chọn tuyệt vời bởi thiết kế độc đáo, cá tính cùng với hiệu năng và những thông số kĩ thuật ấn tượng. Vậy nên đừng ngần ngại lựa chọn mua Legion Y7000P 2024 tại hệ thống của hàng của LaptopAZ.vn để được trải nghiệm sự tuyệt vời của chiếc Laptop này đem lại.",
                             Img = "https://laptopaz.vn/media/product/3174_",
                             Price = 21490000m,
                             ProductName = "Lenovo Thinkbook 16 G6+ 2024",
-                            StockQuantity = 100
-                        },
-                        new
-                        {
-                            ProductId = 2,
-                            Branch = "Lenovo",
-                            CategoryId = 2,
-                            Description = "Laptop Lenovo ThinkBook 16 G6+ với hiệu năng mạnh mẽ cùng thiết kế thanh lịch, là sự lựa chọn phù hợp cho hầu hết tất cả mọi người",
-                            Img = "https://laptopaz.vn/media/product/3174_",
-                            Price = 29890000m,
-                            ProductName = "Lenovo Legion Y7000P ",
-                            StockQuantity = 100
-                        },
-                        new
-                        {
-                            ProductId = 3,
-                            Branch = "Lenovo",
-                            CategoryId = 2,
-                            Description = "mẫu laptop cao cấp của nhà Acer đã và đem lại những trải nghiệm tuyệt vời, cùng với những ưu điểm vượt trội",
-                            Img = "https://laptopaz.vn/media/product/2947_helios_neo_2023.jpg",
-                            Price = 29890000m,
-                            ProductName = "Lenovo Legion 5 R7000 APH9",
-                            StockQuantity = 100
-                        },
-                        new
-                        {
-                            ProductId = 4,
-                            Branch = "Dell",
-                            CategoryId = 4,
-                            Description = " Laptop Dell Inspiron 14 5430 là một chiếc laptop thiết kế sang trọng, gọn nhẹ, màn hình chất lượng đi kèm hiệu năng mạnh mẽ",
-                            Img = "https://laptopaz.vn/media/product/2757_laptopaz_5430_chinh.png",
-                            Price = 15990000m,
-                            ProductName = "Dell Inspiron 14 5430",
-                            StockQuantity = 100
-                        },
-                        new
-                        {
-                            ProductId = 5,
-                            Branch = "Lenovo",
-                            CategoryId = 4,
-                            Description = "Legion Y7000P 2024 là một chiếc Laptop hứa hẹn là một trong những sự lựa chọn tuyệt vời bởi thiết kế độc đáo, cá tính cùng với hiệu năng và những thông số kĩ thuật ấn tượng. Vậy nên đừng ngần ngại lựa chọn mua Legion Y7000P 2024 tại hệ thống của hàng của LaptopAZ.vn để được trải nghiệm sự tuyệt vời của chiếc Laptop này đem lại.",
-                            Img = "https://laptopaz.vn/media/product/3239_lenovo_thinkbook_16_g7_2024.jpg",
-                            Price = 21890000m,
-                            ProductName = " Lenovo Thinkbook 16 G7 2024",
-                            StockQuantity = 100
-                        },
-                        new
-                        {
-                            ProductId = 6,
-                            Branch = "Surface",
-                            CategoryId = 5,
-                            Description = "hiệu năng mạnh mẽ cùng thiết kế thanh lịch, là sự lựa chọn phù hợp",
-                            Img = "https://laptopaz.vn/media/product/2556_surface_book_3_core_i7_32gb_1tb_15_inch_newseal_1601018373.jpg",
-                            Price = 29890000m,
-                            ProductName = "Surface Book 3",
                             StockQuantity = 100
                         });
                 });
@@ -370,13 +361,21 @@ namespace TechShop.Migrations
 
             modelBuilder.Entity("TechShop.Models.Product", b =>
                 {
-                    b.HasOne("TechShop.Models.Category", "ProductOfCategory")
+                    b.HasOne("TechShop.Models.Brand", "BrandOfProducts")
+                        .WithMany()
+                        .HasForeignKey("BrandId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TechShop.Models.Category", "CategoryOfProducts")
                         .WithMany("Products")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("ProductOfCategory");
+                    b.Navigation("BrandOfProducts");
+
+                    b.Navigation("CategoryOfProducts");
                 });
 
             modelBuilder.Entity("TechShop.Models.Category", b =>

@@ -10,6 +10,7 @@ namespace TechShop.Data
             
         }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Brand> Brands { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<PaymentMethod> PaymentMethods { get; set; }
         public DbSet<Order> Orders { get; set; }
@@ -25,13 +26,17 @@ namespace TechShop.Data
                     new Category { CategoryId = 5, CategoryName = "Surface", Description="Surface phụ vụ cho công việc, học tập" }
                 );
 
+            modelBuilder.Entity<Brand>().HasData(
+                    new Brand { BrandId=1, BrandName="Lenovo" },
+                    new Brand { BrandId=2, BrandName="Samsung" },
+                    new Brand { BrandId=3, BrandName="MSI" },
+                    new Brand { BrandId=4, BrandName="Apple" },
+                    new Brand { BrandId=5, BrandName="Intel" },
+                    new Brand { BrandId=6, BrandName="Dell" }
+                );
+
             modelBuilder.Entity<Product>().HasData(
-                    new Product { ProductId=1, ProductName="Lenovo Thinkbook 16 G6+ 2024", Price=21490000, Branch="Lenovo", Description="Legion Y7000P 2024 là một chiếc Laptop hứa hẹn là một trong những sự lựa chọn tuyệt vời bởi thiết kế độc đáo, cá tính cùng với hiệu năng và những thông số kĩ thuật ấn tượng. Vậy nên đừng ngần ngại lựa chọn mua Legion Y7000P 2024 tại hệ thống của hàng của LaptopAZ.vn để được trải nghiệm sự tuyệt vời của chiếc Laptop này đem lại.", StockQuantity=100, Img="https://laptopaz.vn/media/product/3174_", CategoryId=1 },
-                    new Product { ProductId=2, ProductName="Lenovo Legion Y7000P ", Price=29890000, Branch="Lenovo", Description="Laptop Lenovo ThinkBook 16 G6+ với hiệu năng mạnh mẽ cùng thiết kế thanh lịch, là sự lựa chọn phù hợp cho hầu hết tất cả mọi người", StockQuantity=100, Img="https://laptopaz.vn/media/product/3174_", CategoryId=2 },
-                    new Product { ProductId=3, ProductName="Lenovo Legion 5 R7000 APH9", Price=29890000, Branch="Lenovo", Description= "mẫu laptop cao cấp của nhà Acer đã và đem lại những trải nghiệm tuyệt vời, cùng với những ưu điểm vượt trội", StockQuantity=100, Img="https://laptopaz.vn/media/product/2947_helios_neo_2023.jpg", CategoryId=2 },
-                    new Product { ProductId=4, ProductName="Dell Inspiron 14 5430", Price=15990000, Branch="Dell", Description=" Laptop Dell Inspiron 14 5430 là một chiếc laptop thiết kế sang trọng, gọn nhẹ, màn hình chất lượng đi kèm hiệu năng mạnh mẽ", StockQuantity=100, Img="https://laptopaz.vn/media/product/2757_laptopaz_5430_chinh.png", CategoryId=4 },
-                    new Product { ProductId=5, ProductName=" Lenovo Thinkbook 16 G7 2024", Price=21890000, Branch="Lenovo", Description="Legion Y7000P 2024 là một chiếc Laptop hứa hẹn là một trong những sự lựa chọn tuyệt vời bởi thiết kế độc đáo, cá tính cùng với hiệu năng và những thông số kĩ thuật ấn tượng. Vậy nên đừng ngần ngại lựa chọn mua Legion Y7000P 2024 tại hệ thống của hàng của LaptopAZ.vn để được trải nghiệm sự tuyệt vời của chiếc Laptop này đem lại.", StockQuantity=100, Img="https://laptopaz.vn/media/product/3239_lenovo_thinkbook_16_g7_2024.jpg", CategoryId=4 },
-                    new Product { ProductId=6, ProductName="Surface Book 3", Price=29890000, Branch="Surface", Description="hiệu năng mạnh mẽ cùng thiết kế thanh lịch, là sự lựa chọn phù hợp", StockQuantity=100, Img="https://laptopaz.vn/media/product/2556_surface_book_3_core_i7_32gb_1tb_15_inch_newseal_1601018373.jpg", CategoryId=5 }
+                    new Product { ProductId=1, ProductName="Lenovo Thinkbook 16 G6+ 2024", Price=21490000, BrandId=1, Description="Legion Y7000P 2024 là một chiếc Laptop hứa hẹn là một trong những sự lựa chọn tuyệt vời bởi thiết kế độc đáo, cá tính cùng với hiệu năng và những thông số kĩ thuật ấn tượng. Vậy nên đừng ngần ngại lựa chọn mua Legion Y7000P 2024 tại hệ thống của hàng của LaptopAZ.vn để được trải nghiệm sự tuyệt vời của chiếc Laptop này đem lại.", StockQuantity=100, Img="https://laptopaz.vn/media/product/3174_", CategoryId=1 }
                 );
 
             modelBuilder.Entity<PaymentMethod>().HasData(
@@ -48,7 +53,7 @@ namespace TechShop.Data
             modelBuilder.Entity<OrderDetail>().HasData(
                     new OrderDetail { OrderId=1, ProductId=1, Quantity=2 }
                 );
-
+            
         }
     }
 }
