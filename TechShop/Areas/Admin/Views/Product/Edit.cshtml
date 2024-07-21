@@ -1,6 +1,6 @@
-﻿@using TechShop.Models
-@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-@model Product
+﻿ @using TechShop.Models
+ @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+ @model Product
 
 @{
     Layout = "_LayoutAdmin";
@@ -17,11 +17,6 @@
             <span asp-validation-for="ProductName" class="text-danger"></span>
         </div>
         <div class="mb-3">
-            <label class="form-label">Branch</label>
-            <input asp-for="Branch" class="form-control" />
-            <span asp-validation-for="Branch" class="text-danger"></span>
-        </div>
-        <div class="mb-3">
             <label class="form-label">Price</label>
             <input asp-for="Price" class="form-control" />
             <span asp-validation-for="Price" class="text-danger"></span>
@@ -36,18 +31,28 @@
             <textarea asp-for="Description" class="form-control"></textarea>
             <span asp-validation-for="Description" class="text-danger"></span>
         </div>
+
+        
         <div class="mb-3">
             <label class="form-label">CategoryId</label>
             <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-control">
-                <option>---Choose a category</option>
+                <option>---Chọn loại sản phẩm</option>
             </select>
             <span asp-validation-for="CategoryId" class="text-danger"></span>
         </div>
         <div class="mb-3">
+            <label class="form-label">Brand</label>
+            <select asp-for="BrandId" asp-items="ViewBag.Brands">
+                <option>---Chọn nhãn hàng</option>
+            </select>
+            <span asp-validation-for="BrandId" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
             <label class="form-label">Image</label>
             <input asp-for="ImageUpLoad" class="form-control" />
             <span asp-validation-for="ImageUpLoad" class="text-danger"></span>
-            <img src="~/media/products/@Model.Img" width="120"/>
+            <img src="~/media/products/@Model.Img" width="120" />
         </div>
         <div class="row">
             <div class="col-6 mt-3">

@@ -19,11 +19,13 @@ namespace TechShop.Areas.Admin.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            return View(await _db.Products.OrderBy(p => p.ProductId).Include(p => p.CategoryOfProducts).ToListAsync());
+            var lstProduct = await _db.Products.OrderBy(p => p.ProductId).Include(cat => cat.CategoryOfProducts).Include(brd => brd.BrandOfProducts).ToListAsync();
+            return View(lstProduct);
         }
         public IActionResult Create()
         {
             ViewBag.Categories = new SelectList(_db.Categories, "CategoryId", "CategoryName");
+            ViewBag.Brands = new SelectList(_db.Brands, "BrandId", "BrandName");
             return View();
         }
         [HttpPost]
@@ -31,14 +33,14 @@ namespace TechShop.Areas.Admin.Controllers
         public async Task<IActionResult> Create(Product product)
         {
             ViewBag.Categories = new SelectList(_db.Categories, "CategoryId", "CategoryName", product.CategoryId);
-
+            ViewBag.Brands = new SelectList(_db.Brands, "BrandId", "BrandName", product.BrandId);
             if (!ModelState.IsValid)
             {
                 TempData["error"] = "Model có một vài thứ đang bị lỗi";
                 List<string> errors = new List<string>();
-                foreach(var value in ModelState.Values)
+                foreach (var value in ModelState.Values)
                 {
-                    foreach(var err in value.Errors)
+                    foreach (var err in value.Errors)
                     {
                         errors.Add(err.ErrorMessage);
                     }
@@ -83,6 +85,7 @@ namespace TechShop.Areas.Admin.Controllers
             }
             Product product = await _db.Products.FirstOrDefaultAsync(p => p.ProductId == id);
             ViewBag.Categories = new SelectList(_db.Categories, "CategoryId", "CategoryName");
+            ViewBag.Brands = new SelectList(_db.Brands, "BrandId", "BrandName", product.BrandId);
             return View(product);
         }
         [HttpPost]
@@ -90,6 +93,7 @@ namespace TechShop.Areas.Admin.Controllers
         public async Task<IActionResult> Edit(Product product)
         {
             ViewBag.Categories = new SelectList(_db.Categories, "CategoryId", "CategoryName");
+            ViewBag.Brands = new SelectList(_db.Brands, "BrandId", "BrandName", product.BrandId);
 
             var existed_product = await _db.Products.FindAsync(product.ProductId); // Lấy ra sản phẩm cũ
 
@@ -136,7 +140,7 @@ namespace TechShop.Areas.Admin.Controllers
                 // update other product properties
                 existed_product.ProductId = product.ProductId;
                 existed_product.ProductName = product.ProductName;
-                existed_product.Branch = product.Branch;
+                existed_product.BrandId = product.BrandId;
                 existed_product.Description = product.Description;
                 existed_product.Price = product.Price;
 
