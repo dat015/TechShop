@@ -57,10 +57,10 @@
 
     </div>
     <div class="panner-mini">
-        <div class="item">
+        <div class="item-header">
             <img src="https://laptopaz.vn/media/banner/14_Oct2abfc06f2548c018b6afe6bf064f3ab2.jpg" style="width : 370px;height: auto; " />
         </div>
-        <div class="item">
+        <div class="item-header">
             <img src="https://laptopaz.vn/media/banner/13_Oct2d10cdfdfc80145ac11dc99f38a937ba.jpg" style="width : 370px; height: auto;" />
         </div>
     </div>
@@ -103,8 +103,7 @@
                 {
                     <div class="pro-item">
                         <div class="img-item">
-                            <a href="#"><img src="@product.Img" alt="Alternate Text" /></a>
-                        </div>
+                            <a asp-controller="Home" asp-action="ProductDetail"><img src="@product.Img" alt="Alternate Text" /></a>
                         <div class="info-item">
                             <span><a href="#">@product.ProductName</a></span>
                             <br />
