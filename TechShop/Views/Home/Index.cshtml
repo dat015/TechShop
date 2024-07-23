@@ -99,6 +99,8 @@
                 </div>
             </div>
             <div class="list-product">
+
+        </div>
                 @foreach (var product in Model.Products.Where(p => p.CategoryId == category.CategoryId).Take(4))
                 {
                     <div class="pro-item">
@@ -110,10 +112,10 @@
                             <b style="color : #ec3237;">@product.Price đ</b>
                         </div>
                     </div>
+                    </div>
                 }
             </div>
         </div>
-    </div>
 }
 
 

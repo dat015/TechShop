@@ -899,3 +899,4 @@ D:\C#\TechShop\TechShop\obj\Debug\net8.0\TechShop.pdb
 D:\C#\TechShop\TechShop\obj\Debug\net8.0\TechShop.genruntimeconfig.cache
 D:\C#\TechShop\TechShop\obj\Debug\net8.0\ref\TechShop.dll
 D:\ASP-DOT-NET\Projects\TechShop\TechShop\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\C#\TechShop\TechShop\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css

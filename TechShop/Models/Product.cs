@@ -12,6 +12,7 @@ namespace TechShop.Models
         [Required, MaxLength(1000, ErrorMessage = "Yêu cầu nhập tên sản phẩm")]
         public string ProductName { get; set; }
         [Required,Range(0,1000000000, ErrorMessage ="Yêu cầu nhập giá sản phẩm")]
+        [Column(TypeName = "decimal(18,2)")]
         public decimal Price { get; set; }
         [Required, Range(0,1000, ErrorMessage ="Yêu cầu nhập số lượng trong kho")]
         public int StockQuantity { get; set; }
