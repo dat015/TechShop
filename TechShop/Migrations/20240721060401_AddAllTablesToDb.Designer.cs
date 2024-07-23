@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TechShop.Data;
 
@@ -11,9 +12,11 @@ using TechShop.Data;
 namespace TechShop.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240721060401_AddAllTablesToDb")]
+    partial class AddAllTablesToDb
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -22,7 +25,7 @@ namespace TechShop.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("TechShop.Models.Brand", b =>
+            modelBuilder.Entity("TechShop.Models.Branch", b =>
                 {
                     b.Property<int>("BrandId")
                         .ValueGeneratedOnAdd()
@@ -36,7 +39,7 @@ namespace TechShop.Migrations
 
                     b.HasKey("BrandId");
 
-                    b.ToTable("Brands");
+                    b.ToTable("Branches");
 
                     b.HasData(
                         new
@@ -240,6 +243,9 @@ namespace TechShop.Migrations
                     b.Property<int>("BrandId")
                         .HasColumnType("int");
 
+                    b.Property<int?>("BrandOfProductsBrandId")
+                        .HasColumnType("int");
+
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
@@ -264,7 +270,7 @@ namespace TechShop.Migrations
 
                     b.HasKey("ProductId");
 
-                    b.HasIndex("BrandId");
+                    b.HasIndex("BrandOfProductsBrandId");
 
                     b.HasIndex("CategoryId");
 
@@ -358,11 +364,9 @@ namespace TechShop.Migrations
 
             modelBuilder.Entity("TechShop.Models.Product", b =>
                 {
-                    b.HasOne("TechShop.Models.Brand", "BrandOfProducts")
+                    b.HasOne("TechShop.Models.Branch", "BrandOfProducts")
                         .WithMany()
-                        .HasForeignKey("BrandId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("BrandOfProductsBrandId");
 
                     b.HasOne("TechShop.Models.Category", "CategoryOfProducts")
                         .WithMany("Products")

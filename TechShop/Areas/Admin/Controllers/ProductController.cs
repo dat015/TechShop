@@ -19,11 +19,13 @@ namespace TechShop.Areas.Admin.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            return View(await _db.Products.OrderBy(p => p.ProductId).Include(p => p.CategoryOfProducts).ToListAsync());
+            var lstProduct = await _db.Products.OrderBy(p => p.ProductId).Include(cat => cat.CategoryOfProducts).Include(brd => brd.BrandOfProducts).ToListAsync();
+            return View(lstProduct);
         }
         public IActionResult Create()
         {
             ViewBag.Categories = new SelectList(_db.Categories, "CategoryId", "CategoryName");
+            ViewBag.Brands = new SelectList(_db.Brands, "BrandId", "BrandName");
             return View();
         }
         [HttpPost]
@@ -31,13 +33,14 @@ namespace TechShop.Areas.Admin.Controllers
         public async Task<IActionResult> Create(Product product)
         {
             ViewBag.Categories = new SelectList(_db.Categories, "CategoryId", "CategoryName", product.CategoryId);
+            ViewBag.Brands = new SelectList(_db.Brands, "BrandId", "BrandName", product.BrandId);
             if (!ModelState.IsValid)
             {
                 TempData["error"] = "Model có một vài thứ đang bị lỗi";
                 List<string> errors = new List<string>();
-                foreach(var value in ModelState.Values)
+                foreach (var value in ModelState.Values)
                 {
-                    foreach(var err in value.Errors)
+                    foreach (var err in value.Errors)
                     {
                         errors.Add(err.ErrorMessage);
                     }
@@ -82,6 +85,7 @@ namespace TechShop.Areas.Admin.Controllers
             }
             Product product = await _db.Products.FirstOrDefaultAsync(p => p.ProductId == id);
             ViewBag.Categories = new SelectList(_db.Categories, "CategoryId", "CategoryName");
+            ViewBag.Brands = new SelectList(_db.Brands, "BrandId", "BrandName", product.BrandId);
             return View(product);
         }
         [HttpPost]
@@ -89,6 +93,10 @@ namespace TechShop.Areas.Admin.Controllers
         public async Task<IActionResult> Edit(Product product)
         {
             ViewBag.Categories = new SelectList(_db.Categories, "CategoryId", "CategoryName");
+            ViewBag.Brands = new SelectList(_db.Brands, "BrandId", "BrandName", product.BrandId);
+
+            var existed_product = await _db.Products.FindAsync(product.ProductId); // Lấy ra sản phẩm cũ
+
             if (!ModelState.IsValid)
             {
                 TempData["error"] = "Model chưa hợp lệ";
@@ -110,13 +118,33 @@ namespace TechShop.Areas.Admin.Controllers
                     string upLoadDir = Path.Combine(_webHostEnvironment.WebRootPath, "media/products");
                     string imageName = Guid.NewGuid().ToString() + "_" + product.ImageUpLoad.FileName;
                     string filePathImage = Path.Combine(upLoadDir, imageName);
+                    try
+                    {
+                        string oldImage = Path.Combine(upLoadDir, existed_product.Img);
+                        if (System.IO.File.Exists(oldImage))
+                        {
+                            System.IO.File.Delete(oldImage);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        ModelState.AddModelError("", "Lỗi khi xóa ảnh sản phẩm");
+                    }
 
                     FileStream stream = new FileStream(filePathImage, FileMode.Create);
                     await product.ImageUpLoad.CopyToAsync(stream);
                     stream.Close();
-                    product.Img = imageName;
+                    existed_product.Img = imageName;
                 }
-                _db.Products.Update(product);
+
+                // update other product properties
+                existed_product.ProductId = product.ProductId;
+                existed_product.ProductName = product.ProductName;
+                existed_product.BrandId = product.BrandId;
+                existed_product.Description = product.Description;
+                existed_product.Price = product.Price;
+
+                _db.Products.Update(existed_product);
                 await _db.SaveChangesAsync();
                 TempData["success"]="Cập nhật sản phẩm thành công.";
                 return RedirectToAction("Index");
@@ -128,11 +156,18 @@ namespace TechShop.Areas.Admin.Controllers
             Product product = await _db.Products.FirstOrDefaultAsync(p => p.ProductId.Equals(id));
             if (!string.Equals(product.Img, "noname.jpg"))
             {
-                string root = Path.Combine(_webHostEnvironment.WebRootPath, "media/products");
-                string pathImg = Path.Combine(root, product.Img);
-                if (System.IO.File.Exists(pathImg))
+                try
                 {
-                    System.IO.File.Delete(pathImg);
+                    string root = Path.Combine(_webHostEnvironment.WebRootPath, "media/products");
+                    string pathImg = Path.Combine(root, product.Img);
+                    if (System.IO.File.Exists(pathImg))
+                    {
+                        System.IO.File.Delete(pathImg);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError("", "Lỗi khi xóa ảnh sản phẩm");
                 }
             }
             _db.Products.Remove(product);

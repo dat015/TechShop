@@ -1,14 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "Hash": "Ff7ZZL95uMCR185vuqn47ewq+nR8xnmbXPdCj0nO+54=",
-=======
-  "Hash": "7WFcFAQji9+R7o95eC2xftuOJ7Y2V+BLklBvQCS8gdQ=",
->>>>>>> 88a4a85762fbdd17c0640d6f634005f5a01a910c
-=======
-  "Hash": "DOHiPBRbtVVSywW57whV/4AnU8rdq/gOBn+0l7xHxio=",
->>>>>>> f7936553da5165e9e16bc0a5d3becaddd512da34
+  "Hash": "OloAU4SswdGoxMEJ3pjmen/lkHo1bGq/d3+TJTKvrYc=",
   "Source": "TechShop",
   "BasePath": "_content/TechShop",
   "Mode": "Default",
@@ -18,17 +10,17 @@
     {
       "Name": "TechShop\\wwwroot",
       "Source": "TechShop",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TechShop.styles.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TechShop.styles.css",
       "SourceId": "TechShop",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "TechShop.styles.css",
       "AssetKind": "All",
@@ -41,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\C#\\TechShop\\TechShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TechShop.styles.css"
+      "OriginalItemSpec": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TechShop.styles.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TechShop.bundle.scp.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TechShop.bundle.scp.css",
       "SourceId": "TechShop",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "TechShop.bundle.scp.css",
       "AssetKind": "All",
@@ -60,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\C#\\TechShop\\TechShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TechShop.bundle.scp.css"
+      "OriginalItemSpec": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TechShop.bundle.scp.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\404.html",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\404.html",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "404.html",
       "AssetKind": "All",
@@ -82,10 +74,29 @@
       "OriginalItemSpec": "wwwroot\\404.html"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\blank.html",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\backend\\js\\site.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
+      "BasePath": "_content/TechShop",
+      "RelativePath": "backend/js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\backend\\js\\site.js"
+    },
+    {
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\blank.html",
+      "SourceId": "TechShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "blank.html",
       "AssetKind": "All",
@@ -101,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\blank.html"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\bootstrap-admin-template-free.jpg",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\bootstrap-admin-template-free.jpg",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "bootstrap-admin-template-free.jpg",
       "AssetKind": "All",
@@ -120,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-admin-template-free.jpg"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\button.html",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\button.html",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "button.html",
       "AssetKind": "All",
@@ -139,29 +150,10 @@
       "OriginalItemSpec": "wwwroot\\button.html"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\chart.html",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
-      "BasePath": "_content/TechShop",
-      "RelativePath": "chart.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\chart.html"
-    },
-    {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\css\\bootstrap.min.css",
-      "SourceId": "TechShop",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -177,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\css\\home_content.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\css\\home_content.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "css/home_content.css",
       "AssetKind": "All",
@@ -196,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\home_content.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\css\\site.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\css\\site.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -215,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\css\\style.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\css\\style.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -234,10 +226,29 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\element.html",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\chart.html",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
+      "BasePath": "_content/TechShop",
+      "RelativePath": "chart.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\chart.html"
+    },
+    {
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\element.html",
+      "SourceId": "TechShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "element.html",
       "AssetKind": "All",
@@ -253,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\element.html"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\favicon.ico",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\favicon.ico",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -272,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\form.html",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\form.html",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "form.html",
       "AssetKind": "All",
@@ -291,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\form.html"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\images\\logo_laptopaz (2).jpg",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\images\\logo_laptopaz (2).jpg",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "images/logo_laptopaz (2).jpg",
       "AssetKind": "All",
@@ -310,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo_laptopaz (2).jpg"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\img\\testimonial-1.jpg",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\img\\testimonial-1.jpg",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "img/testimonial-1.jpg",
       "AssetKind": "All",
@@ -329,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\img\\testimonial-1.jpg"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\img\\testimonial-2.jpg",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\img\\testimonial-2.jpg",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "img/testimonial-2.jpg",
       "AssetKind": "All",
@@ -348,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\img\\testimonial-2.jpg"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\img\\user.jpg",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\img\\user.jpg",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "img/user.jpg",
       "AssetKind": "All",
@@ -367,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\img\\user.jpg"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\index.html",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\index.html",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -386,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\js\\main.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\js\\main.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "js/main.js",
       "AssetKind": "All",
@@ -405,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\js\\site.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\js\\site.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -424,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -443,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -462,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -481,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -500,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -519,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -538,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -557,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -576,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -595,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -614,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -633,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -652,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -671,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -690,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -709,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -728,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -747,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -766,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -785,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -804,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -823,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -842,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -861,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -880,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -899,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -918,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -937,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -956,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -975,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -994,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1013,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1032,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1051,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1070,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1089,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1108,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1127,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1146,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1165,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1184,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1203,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1222,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1241,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1260,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1279,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\chart\\chart.min.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\chart\\chart.min.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/chart/chart.min.js",
       "AssetKind": "All",
@@ -1298,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\chart\\chart.min.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\easing\\easing.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\easing\\easing.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/easing/easing.js",
       "AssetKind": "All",
@@ -1317,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\easing\\easing.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\easing\\easing.min.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\easing\\easing.min.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/easing/easing.min.js",
       "AssetKind": "All",
@@ -1336,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\easing\\easing.min.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1355,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1374,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1393,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1412,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1431,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1450,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1469,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1488,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1507,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1526,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1545,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1564,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/owlcarousel/assets/ajax-loader.gif",
       "AssetKind": "All",
@@ -1583,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/owlcarousel/assets/owl.carousel.css",
       "AssetKind": "All",
@@ -1602,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/owlcarousel/assets/owl.carousel.min.css",
       "AssetKind": "All",
@@ -1621,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.default.css",
       "AssetKind": "All",
@@ -1640,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.default.min.css",
       "AssetKind": "All",
@@ -1659,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.green.css",
       "AssetKind": "All",
@@ -1678,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.green.min.css",
       "AssetKind": "All",
@@ -1697,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/owlcarousel/assets/owl.video.play.png",
       "AssetKind": "All",
@@ -1716,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\owlcarousel\\LICENSE",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/owlcarousel/LICENSE",
       "AssetKind": "All",
@@ -1735,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\LICENSE"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/owlcarousel/owl.carousel.js",
       "AssetKind": "All",
@@ -1754,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/owlcarousel/owl.carousel.min.js",
       "AssetKind": "All",
@@ -1773,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/tempusdominus/css/tempusdominus-bootstrap-4.css",
       "AssetKind": "All",
@@ -1792,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css",
       "AssetKind": "All",
@@ -1811,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\tempusdominus\\js\\moment.min.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\tempusdominus\\js\\moment.min.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/tempusdominus/js/moment.min.js",
       "AssetKind": "All",
@@ -1830,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\tempusdominus\\js\\moment.min.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\tempusdominus\\js\\moment-timezone.min.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/tempusdominus/js/moment-timezone.min.js",
       "AssetKind": "All",
@@ -1849,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\tempusdominus\\js\\moment-timezone.min.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/tempusdominus/js/tempusdominus-bootstrap-4.js",
       "AssetKind": "All",
@@ -1868,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js",
       "AssetKind": "All",
@@ -1887,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\waypoints\\links.php",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\waypoints\\links.php",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/waypoints/links.php",
       "AssetKind": "All",
@@ -1906,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\waypoints\\links.php"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\lib\\waypoints\\waypoints.min.js",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "lib/waypoints/waypoints.min.js",
       "AssetKind": "All",
@@ -1925,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\LICENSE.txt",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\LICENSE.txt",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "LICENSE.txt",
       "AssetKind": "All",
@@ -1944,9 +1955,6 @@
       "OriginalItemSpec": "wwwroot\\LICENSE.txt"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\READ-ME.txt",
-=======
       "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\media\\products\\0e978889-c9e6-4b14-adb8-f107733cdce8_cf0321bd-f11b-41bd-aebd-5e7393ad8e9b.jpg",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
@@ -1986,10 +1994,9 @@
     },
     {
       "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\READ-ME.txt",
->>>>>>> 88a4a85762fbdd17c0640d6f634005f5a01a910c
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "READ-ME.txt",
       "AssetKind": "All",
@@ -2005,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\READ-ME.txt"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap.scss",
       "AssetKind": "All",
@@ -2024,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_accordion.scss",
       "AssetKind": "All",
@@ -2043,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_accordion.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_alert.scss",
       "AssetKind": "All",
@@ -2062,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_alert.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_badge.scss",
       "AssetKind": "All",
@@ -2081,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_badge.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_breadcrumb.scss",
       "AssetKind": "All",
@@ -2100,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_button-group.scss",
       "AssetKind": "All",
@@ -2119,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_button-group.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_buttons.scss",
       "AssetKind": "All",
@@ -2138,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_buttons.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_card.scss",
       "AssetKind": "All",
@@ -2157,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_card.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_carousel.scss",
       "AssetKind": "All",
@@ -2176,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_carousel.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_close.scss",
       "AssetKind": "All",
@@ -2195,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_close.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_containers.scss",
       "AssetKind": "All",
@@ -2214,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_containers.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_dropdown.scss",
       "AssetKind": "All",
@@ -2233,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_forms.scss",
       "AssetKind": "All",
@@ -2252,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_forms.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_functions.scss",
       "AssetKind": "All",
@@ -2271,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_functions.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_grid.scss",
       "AssetKind": "All",
@@ -2290,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_grid.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_helpers.scss",
       "AssetKind": "All",
@@ -2309,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_helpers.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_images.scss",
       "AssetKind": "All",
@@ -2328,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_images.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_list-group.scss",
       "AssetKind": "All",
@@ -2347,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_list-group.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_mixins.scss",
       "AssetKind": "All",
@@ -2366,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_mixins.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_modal.scss",
       "AssetKind": "All",
@@ -2385,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_modal.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_nav.scss",
       "AssetKind": "All",
@@ -2404,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_nav.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_navbar.scss",
       "AssetKind": "All",
@@ -2423,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_navbar.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_offcanvas.scss",
       "AssetKind": "All",
@@ -2442,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_pagination.scss",
       "AssetKind": "All",
@@ -2461,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_pagination.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_popover.scss",
       "AssetKind": "All",
@@ -2480,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_popover.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_progress.scss",
       "AssetKind": "All",
@@ -2499,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_progress.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_reboot.scss",
       "AssetKind": "All",
@@ -2518,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_reboot.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_root.scss",
       "AssetKind": "All",
@@ -2537,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_root.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_spinners.scss",
       "AssetKind": "All",
@@ -2556,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_spinners.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_tables.scss",
       "AssetKind": "All",
@@ -2575,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_tables.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_toasts.scss",
       "AssetKind": "All",
@@ -2594,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_toasts.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_tooltip.scss",
       "AssetKind": "All",
@@ -2613,29 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
-      "BasePath": "_content/TechShop",
-      "RelativePath": "scss/bootstrap/scss/_transitions.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_transitions.scss"
-    },
-    {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
-      "SourceId": "TechShop",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_type.scss",
       "AssetKind": "All",
@@ -2651,10 +2639,29 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_type.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
+      "BasePath": "_content/TechShop",
+      "RelativePath": "scss/bootstrap/scss/_transitions.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "SourceId": "TechShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_utilities.scss",
       "AssetKind": "All",
@@ -2670,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_utilities.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/_variables.scss",
       "AssetKind": "All",
@@ -2689,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_variables.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/bootstrap.scss",
       "AssetKind": "All",
@@ -2708,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/bootstrap-grid.scss",
       "AssetKind": "All",
@@ -2727,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/bootstrap-reboot.scss",
       "AssetKind": "All",
@@ -2746,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/bootstrap-utilities.scss",
       "AssetKind": "All",
@@ -2765,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/forms/_floating-labels.scss",
       "AssetKind": "All",
@@ -2784,29 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
-      "BasePath": "_content/TechShop",
-      "RelativePath": "scss/bootstrap/scss/forms/_form-check.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
-    },
-    {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
-      "SourceId": "TechShop",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/forms/_form-control.scss",
       "AssetKind": "All",
@@ -2822,10 +2810,29 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
+      "BasePath": "_content/TechShop",
+      "RelativePath": "scss/bootstrap/scss/forms/_form-check.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "SourceId": "TechShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/forms/_form-range.scss",
       "AssetKind": "All",
@@ -2841,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/forms/_form-select.scss",
       "AssetKind": "All",
@@ -2860,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/forms/_form-text.scss",
       "AssetKind": "All",
@@ -2879,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/forms/_input-group.scss",
       "AssetKind": "All",
@@ -2898,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/forms/_labels.scss",
       "AssetKind": "All",
@@ -2917,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/forms/_validation.scss",
       "AssetKind": "All",
@@ -2936,10 +2943,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/helpers/_clearfix.scss",
       "AssetKind": "All",
@@ -2955,10 +2962,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/helpers/_colored-links.scss",
       "AssetKind": "All",
@@ -2974,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/helpers/_position.scss",
       "AssetKind": "All",
@@ -2993,10 +3000,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/helpers/_ratio.scss",
       "AssetKind": "All",
@@ -3012,10 +3019,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/helpers/_stretched-link.scss",
       "AssetKind": "All",
@@ -3031,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/helpers/_text-truncation.scss",
       "AssetKind": "All",
@@ -3050,10 +3057,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/helpers/_visually-hidden.scss",
       "AssetKind": "All",
@@ -3069,10 +3076,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_alert.scss",
       "AssetKind": "All",
@@ -3088,10 +3095,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_border-radius.scss",
       "AssetKind": "All",
@@ -3107,10 +3114,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_box-shadow.scss",
       "AssetKind": "All",
@@ -3126,10 +3133,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_breakpoints.scss",
       "AssetKind": "All",
@@ -3145,10 +3152,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_buttons.scss",
       "AssetKind": "All",
@@ -3164,10 +3171,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_caret.scss",
       "AssetKind": "All",
@@ -3183,10 +3190,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_clearfix.scss",
       "AssetKind": "All",
@@ -3202,10 +3209,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_color-scheme.scss",
       "AssetKind": "All",
@@ -3221,10 +3228,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_container.scss",
       "AssetKind": "All",
@@ -3240,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_deprecate.scss",
       "AssetKind": "All",
@@ -3259,10 +3266,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_forms.scss",
       "AssetKind": "All",
@@ -3278,10 +3285,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_gradients.scss",
       "AssetKind": "All",
@@ -3297,10 +3304,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_grid.scss",
       "AssetKind": "All",
@@ -3316,10 +3323,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_image.scss",
       "AssetKind": "All",
@@ -3335,10 +3342,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_list-group.scss",
       "AssetKind": "All",
@@ -3354,10 +3361,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_lists.scss",
       "AssetKind": "All",
@@ -3373,10 +3380,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_pagination.scss",
       "AssetKind": "All",
@@ -3392,10 +3399,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_reset-text.scss",
       "AssetKind": "All",
@@ -3411,10 +3418,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_resize.scss",
       "AssetKind": "All",
@@ -3430,10 +3437,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_table-variants.scss",
       "AssetKind": "All",
@@ -3449,10 +3456,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_text-truncate.scss",
       "AssetKind": "All",
@@ -3468,10 +3475,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_transition.scss",
       "AssetKind": "All",
@@ -3487,10 +3494,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_utilities.scss",
       "AssetKind": "All",
@@ -3506,10 +3513,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/mixins/_visually-hidden.scss",
       "AssetKind": "All",
@@ -3525,10 +3532,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/utilities/_api.scss",
       "AssetKind": "All",
@@ -3544,10 +3551,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "scss/bootstrap/scss/vendor/_rfs.scss",
       "AssetKind": "All",
@@ -3563,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\signin.html",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\signin.html",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "signin.html",
       "AssetKind": "All",
@@ -3582,10 +3589,10 @@
       "OriginalItemSpec": "wwwroot\\signin.html"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\signup.html",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\signup.html",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "signup.html",
       "AssetKind": "All",
@@ -3601,10 +3608,10 @@
       "OriginalItemSpec": "wwwroot\\signup.html"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\table.html",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\table.html",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "table.html",
       "AssetKind": "All",
@@ -3620,10 +3627,10 @@
       "OriginalItemSpec": "wwwroot\\table.html"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\typography.html",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\typography.html",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "typography.html",
       "AssetKind": "All",
@@ -3639,10 +3646,10 @@
       "OriginalItemSpec": "wwwroot\\typography.html"
     },
     {
-      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\widget.html",
+      "Identity": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\widget.html",
       "SourceId": "TechShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "ContentRoot": "D:\\ASP-DOT-NET\\Projects\\TechShop\\TechShop\\wwwroot\\",
       "BasePath": "_content/TechShop",
       "RelativePath": "widget.html",
       "AssetKind": "All",

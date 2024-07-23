@@ -13,11 +13,7 @@
             <input asp-for="ProductName" class="form-control" />
             <span asp-validation-for="ProductName" class="text-danger"></span>
         </div>
-        <div class="mb-3">
-            <label class="form-label">Branch</label>
-            <input asp-for="Branch" class="form-control" />
-            <span asp-validation-for="Branch" class="text-danger"></span>
-        </div>
+        
         <div class="mb-3">
             <label class="form-label">Price</label>
             <input asp-for="Price" class="form-control" />
@@ -41,9 +37,17 @@
             <span asp-validation-for="CategoryId" class="text-danger"></span>
         </div>
         <div class="mb-3">
+            <label class="form-label">Brand</label>
+            <select asp-for="BrandId" asp-items="ViewBag.Brands" class="form-control">
+                <option>---Chọn nhãn hàng</option>
+            </select>
+            <span asp-validation-for="BrandId" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
             <label class="form-label">Image</label>
             <input asp-for="ImageUpLoad" class="form-control" />
             <span asp-validation-for="ImageUpLoad" class="text-danger"></span>
+            <img id="imgpreview" class="pt-2" />
         </div>
         <div class="row">
             <div class="col-6 mt-3">
@@ -64,4 +68,11 @@
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
+    <script>
+        $("#ImageUpLoad").change(
+            function(){
+                readURL(this);
+            }
+        )
+    </script>
 }

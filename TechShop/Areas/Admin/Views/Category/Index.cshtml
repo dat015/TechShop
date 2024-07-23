@@ -17,6 +17,7 @@
             <th scope="col">Id</th>
             <th scope="col">Tên danh mục</th>
             <th scope="col">Mô tả danh mục</th>
+            <th scope="col">Quản lý danh mục</th>
         </tr>
     </thead>
     
@@ -31,13 +32,13 @@
                     <a asp-controller="Category" asp-action="Edit" asp-route-id="@item.CategoryId" class="btn btn-warning m-1">
                         <i class="bi bi-pencil-square"></i> Sửa
                     </a>
-                    <a asp-controller="Category" asp-action="Delete" asp-route-id="@item.CategoryId" class="btn btn-danger m-1">
+                    <a asp-controller="Category" asp-action="Delete" asp-route-id="@item.CategoryId" 
+                        class="btn btn-danger m-1 confirmDeletion">
                         <i class="bi bi-trash"></i> Xóa
                     </a>
                 </td>
                 
             </tr>
-
         }
     </tbody>
 </table>
