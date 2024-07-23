@@ -113,6 +113,7 @@
     <span>Sắp xếp theo</span>
     <form asp-controller="Home" asp-action="Product" method="get">
         <select name="sortOrder" onchange="this.form.submit()">
+            <option></option>
             <option value="priceAsc">Giá: thấp -> cao</option>
             <option value="priceDesc">Giá: cao -> thấp</option>
             <option value="nameAsc">Tên A->Z</option>
