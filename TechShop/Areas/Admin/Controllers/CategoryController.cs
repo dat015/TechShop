@@ -29,11 +29,29 @@ namespace TechShop.Areas.Admin.Controllers
             if (!ModelState.IsValid)
             {
                 TempData["error"] = "Giá trị chưa hợp lệ. Kiểm tra lại.";
+                List<string> errors = new List<string>();
+                foreach (var value in ModelState.Values)
+                {
+                    foreach(var err in value.Errors)
+                    {
+                        errors.Add(err.ErrorMessage);
+                    }
+                }
+                string lstError = string.Join(", ", errors);
+                return BadRequest(lstError);
             }
-            _db.Categories.Add(category);
-            await _db.SaveChangesAsync();
-            TempData["success"] = "Thêm danh mục thành công.";
-            return RedirectToAction("Index");
+            else
+            {
+                if (_db.Categories.Any(c => c.CategoryName == category.CategoryName))
+                {
+                    TempData["error"] = "Danh mục đã tồn tại";
+                    return View();
+                }
+                _db.Categories.Add(category);
+                await _db.SaveChangesAsync();
+                TempData["success"] = "Thêm danh mục thành công.";
+                return RedirectToAction("Index");
+            }
         }
 
         public async Task<IActionResult> Edit(int? id)
