@@ -50,21 +50,26 @@ namespace TechShop.Controllers
                     products = products.OrderByDescending(p => p.Price);
                     break;
                 case "nameAsc":
-                    products = products.OrderBy(p => p.ProductName);
+                    products = products.OrderBy(p => p.ProductName);  
                     break;
                 default:
-                    products = products.OrderBy(p => p.ProductName);
+                    products = products.OrderByDescending(p => p.ProductName);  
                     break;
             }
 
             List<Product> result = await products.ToListAsync();
 
-           
-            Category category = await _db.Categories.FindAsync(cateId); 
+            Category category = await _db.Categories.FindAsync(cateId);
 
-           
-            return View( new ProductViewModel(result, category)); 
+            return View(new ProductViewModel(result, category));
         }
+
+
+        public IActionResult ProductDetail()
+        {
+            return View();
+        }
+
 
         public IActionResult Cart() {
             return View();
