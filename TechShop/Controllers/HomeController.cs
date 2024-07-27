@@ -65,7 +65,7 @@ namespace TechShop.Controllers
         }
 
 
-        public IActionResult ProductDetail()
+        public IActionResult ProductDetail(int? id)
         {
             return View();
         }

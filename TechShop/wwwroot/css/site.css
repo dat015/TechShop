@@ -4,12 +4,13 @@
 header {
     background-color: #f5f5f5;
     font-family: Roboto, sans-serif;
+   
 }
+
 .header {
     display: flex;
     justify-content: space-around;
 }
-
 .headder__logo--img{
     height: 95px;
 }
@@ -60,6 +61,7 @@ header {
     height : 35px;
     padding-top :6px;
 }
+
 .main-menu__item {
     justify-content: space-between;
     text-decoration: none;
@@ -67,10 +69,11 @@ header {
     font-weight: 700;
 }
 
+
     .main-menu__item a {
         color: white;
         text-decoration: none;
-        font-weight : 700;
+        font-weight: 700;
     }  
 
 .main-menu__item a:hover {
@@ -80,6 +83,7 @@ header {
 .main-menu__item--icon{
     font-size:15px;
 }
+
 
 @media (min-width: 768px) {
     html {
