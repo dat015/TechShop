@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
+      "Id": "D:\\C#\\TechShop\\TechShop\\wwwroot\\css\\details.css",
+      "PackagePath": "staticwebassets\\css\\details.css"
+    },
+    {
       "Id": "D:\\C#\\TechShop\\TechShop\\wwwroot\\css\\home_content.css",
       "PackagePath": "staticwebassets\\css\\home_content.css"
     },

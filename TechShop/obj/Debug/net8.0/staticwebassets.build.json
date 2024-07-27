@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tUiV6vVs1k+CkBkkyHTDEY8MUjDl8DdS+wCWN/1t8HI=",
+  "Hash": "Tmz+a6G04yG2aD6fAuMRSGmHNoUPV6aZ2xliCd3x2e4=",
   "Source": "TechShop",
   "BasePath": "_content/TechShop",
   "Mode": "Default",
@@ -186,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\css\\details.css",
+      "SourceId": "TechShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\TechShop\\TechShop\\wwwroot\\",
+      "BasePath": "_content/TechShop",
+      "RelativePath": "css/details.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\details.css"
     },
     {
       "Identity": "D:\\C#\\TechShop\\TechShop\\wwwroot\\css\\home_content.css",
