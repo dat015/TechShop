@@ -1,29 +1,28 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
     Layout = "_Layout";
 }
+@model Product
 
 <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">acb</li>
+        <li class="breadcrumb-item">Product</li>
+        <li class="breadcrumb-item active" aria-current="page">@Model.ProductName</li>
     </ol>
 </nav>
 
 <div class="product">
     <div class="product-name">
         <h5>
-            [New 100%] Dell Inspiron 14 5430 (Core i5-1340P, 16GB, 512GB, Iris Xe Graphics, 14" FHD+)
+            @Model.ProductName
         </h5>
     </div>
     <div class="product-info">
         <div class="info-img">
-            <img src="https://laptopaz.vn/media/product/2757_laptopaz_5430_chinh.png" />
+            <img src="@Model.Img" />
         </div>
         <div class="info">
-            <h3>Deal: 15.990.000</h3>
+            <h3>Deal: @Model.Price</h3>
             <b>Bảo hành: </b>
             <span>12 tháng</span>
             <br />
@@ -63,7 +62,7 @@
                         </a>
                     </li>
                     <li>
-                        <span class="checkbox-option "></span>
+                        <span class="checkbox-option "></span>x
                         <span class="checkbox-option "></span>
                         <a href="/new-100-laptop-gaming-hp-victus-15-fa0033dx-core-i5-12450h-8gb-512gb-rtx-3050-4gb-15.6quot-fhd-144hz.html">
                             <span>Core i5-12450H, 8GB, 512GB, RTX 3050 4GB, 15.6 FHD 144Hz</span>
@@ -81,7 +80,7 @@
                     width: 90%;
                     text-align: center;
                     margin-left: 11px;
-                    font-size: 18px;">
+                    font-size: 21px;">
                 Thêm vào giỏ hàng
             </button>
 

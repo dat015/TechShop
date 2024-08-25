@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace TechShop.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -67,16 +68,18 @@ namespace TechShop.Controllers
 
         public IActionResult ProductDetail(int? id)
         {
-            return View();
+            var product = _db.Products.FirstOrDefault(p => p.ProductId == id);
+            if (product == null)
+            {
+                return NotFound();  
+            }
+            return View(product);
         }
 
 
         public IActionResult Cart() {
             return View();
         }
-
-
-
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

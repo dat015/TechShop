@@ -1,5 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using TechShop.Data;
+using TechShop.Repository;
+using TechShop.Repository.IRepository;
+using Microsoft.AspNetCore.Identity;
+using TechShop.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +12,11 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection")
-    ));
+));
+
+builder.Services.AddDefaultIdentity<User>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDbContext>();
+
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 var app = builder.Build();
 
@@ -20,20 +28,24 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
 
 app.UseAuthorization();
+app.UseAuthentication();
 
 app.MapControllerRoute(
     name: "Areas",
     pattern: "{area:exists}/{controller=Admin}/{action=Index}/{id?}");
 
 app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    name: "areas",
+    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
 
 
 app.Run();
+ 

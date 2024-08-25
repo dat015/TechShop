@@ -99,6 +99,7 @@
 
 .list-product {
     margin-top: 12px;
+    margin-left: 9px;
     flex-wrap: wrap;
     display: flex;
 }
@@ -112,7 +113,7 @@
 }
 
 .img-item {
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
     .img-item img:hover {
@@ -160,16 +161,16 @@
     margin-top: 12px;
 }
 
-    .product-items .item {
-        width: 250px;
-        height: 340px;
-        background-color: white;
-        text-align: center;
-        margin-left: 22px;
-        margin-top: 22px;
-        overflow: hidden;
-        display: grid;
-    }
+.product-items .item {
+    width: 250px;
+    height: 340px;
+    background-color: white;
+    text-align: center;
+    margin-left: 22px;
+    margin-top: 22px;
+    overflow: hidden;
+    display: grid;
+}
 
 .img-item {
     overflow: hidden;
