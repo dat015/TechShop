@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using TechShop.Models;
+using TechShop.ViewModel;
 using TechShop.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -77,9 +78,7 @@ namespace TechShop.Controllers
         }
 
 
-        public IActionResult Cart() {
-            return View();
-        }
+     
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

@@ -1,28 +1,13 @@
-﻿@using Microsoft.AspNetCore.Identity
-@using TechShop.Models
+﻿@{
+    var isAuthenticated = Context.User.Identity.IsAuthenticated;
+    var email = Context.User.FindFirst(System.Security.Claims.ClaimTypes.Email)?.Value;
+}
 
-@inject SignInManager<User> SignInManager
-@inject UserManager<User> UserManager
-
-<ul class="navbar-nav">
-@if (SignInManager.IsSignedIn(User))
+@if (isAuthenticated)
 {
-    <li class="nav-item">
-        <a id="manage" class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @UserManager.GetUserName(User)!</a>
-    </li>
-    <li class="nav-item">
-        <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-            <button id="logout" type="submit" class="nav-link btn btn-link text-dark border-0">Logout</button>
-        </form>
-    </li>
+    <p>Chào, @email! <a asp-area="Customer" asp-controller="User" asp-action="Logout">Log out</a></p>
 }
 else
 {
-    <li class="nav-item">
-        <a class="nav-link text-dark" id="register" asp-area="Identity" asp-page="/Account/Register">Register</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link text-dark" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
-    </li>
+        <p> <a asp-controller="User" asp-action="Login" style="color:black;">Đăng nhập</a> | <a asp-controller="User" asp-action="Register" style="color:black;">Đăng ký</a></p>
 }
-</ul>

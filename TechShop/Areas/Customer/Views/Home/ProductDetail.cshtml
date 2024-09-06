@@ -1,7 +1,7 @@
 ﻿@{
     Layout = "_Layout";
 }
-@model Product
+@model TechShop.Models.Product
 
 <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
     <ol class="breadcrumb">
@@ -74,17 +74,18 @@
                 </ul>
 
             </div>
-
-            <button type="submit" class="btn btn-danger" style="    
+            <form method="post" asp-action="AddToCart" asp-controller="Cart" asp-area="Customer" asp-route-id="@Model.ProductId" asp-route-quantity = "1">
+                <button type="submit" class="btn btn-danger" style="
                     height: 50px;
                     width: 90%;
                     text-align: center;
                     margin-left: 11px;
                     font-size: 21px;">
-                Thêm vào giỏ hàng
-            </button>
+                    Thêm vào giỏ hàng
+                </button>
+            </form>
 
-    </div>
+        </div>
         <div class="contact">
             <div class="contact-item">
                 <b style="color:red;">YÊN TÂM KHI MUA SẮM TẠI LAPTOP AZ</b><br />
@@ -96,7 +97,7 @@
                     <li><i class="bi bi-star-fill"></i> Giao hàng miễn phí toàn quốc nhanh nhất</li>
                 </ul>
             </div>
-        
+
 
             <div class="contact-item">
                 <ul>
@@ -117,7 +118,7 @@
 </div>
 
 
-<div class="row"  style="margin-top: 20px;">
+<div class="row" style="margin-top: 20px;">
     <div class="col">
         <div class="bg-white">
             <div class="title-tab">
@@ -348,8 +349,6 @@
                 <h4>Sản phẩm tương đương</h4>
             </div>
             <ul>
-
-               
             </ul>
         </div>
 

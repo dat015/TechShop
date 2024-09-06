@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace TechShop.Data
 {
-    public class ApplicationDbContext : IdentityDbContext<User>
+    public class ApplicationDbContext : IdentityDbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base (options)
         {
@@ -18,7 +18,10 @@ namespace TechShop.Data
         public DbSet<PaymentMethod> PaymentMethods { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetail> DetailsOrders { get; set; }
-        public DbSet<User> Users { get; set; }
+        public DbSet<User> User { get; set; }
+        public DbSet<ShoppingCart> ShoppingCarts { get; set; }
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

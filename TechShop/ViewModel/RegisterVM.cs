@@ -1,11 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace TechShop.Models
+namespace TechShop.ViewModel
 {
-    public class User
+    public class RegisterVM
     {
-
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Required]
@@ -29,6 +28,5 @@ namespace TechShop.Models
         [Required]
         [StringLength(50, ErrorMessage = "Name of banch can't exceed 50 characters")]
         public string Password { get; set; }
-        public string RandomKey { get; set; }
     }
 }

@@ -4,6 +4,10 @@ using TechShop.Repository;
 using TechShop.Repository.IRepository;
 using Microsoft.AspNetCore.Identity;
 using TechShop.Models;
+using TechShop.Automapper;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using System.Security.Claims;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,9 +18,23 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
         builder.Configuration.GetConnectionString("DefaultConnection")
 ));
 
-builder.Services.AddDefaultIdentity<User>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.AddRazorPages();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddAutoMapper(typeof(AutomapperProfile));
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(option=>
+{
+    option.LoginPath = "/Customer/User/Login";
+    option.AccessDeniedPath = "/AccessDenied";
+});
+builder.Services.AddSession(options =>
+{
+    options.Cookie.Name = ".AdventureWorks.Session";
+    options.IdleTimeout = TimeSpan.FromSeconds(10);
+    options.Cookie.IsEssential = true;
+});
+
+
 
 var app = builder.Build();
 
@@ -34,9 +52,9 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
-app.UseAuthorization();
+app.UseSession();
 app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "Areas",
