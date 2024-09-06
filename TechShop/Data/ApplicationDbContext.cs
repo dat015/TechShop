@@ -1,9 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using TechShop.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+
 
 namespace TechShop.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base (options)
         {
@@ -15,9 +18,13 @@ namespace TechShop.Data
         public DbSet<PaymentMethod> PaymentMethods { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetail> DetailsOrders { get; set; }
-        public DbSet<User> Users { get; set; }
+        public DbSet<User> User { get; set; }
+        public DbSet<ShoppingCart> ShoppingCarts { get; set; }
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Category>().HasData(
                     new Category { CategoryId = 1, CategoryName = "Laptop văn phòng", Description="Là sản phẩm bán chạy nhất của chúng tôi" },
                     new Category { CategoryId = 2, CategoryName = "Laptop Gaming", Description="Máy có cấu hình mạnh đáp ứng nhu cầu chơi game" },
@@ -37,7 +44,7 @@ namespace TechShop.Data
 
             modelBuilder.Entity<Product>().HasData(
                     new Product { ProductId=1, ProductName="Lenovo Thinkbook 16 G6+ 2024", Price=21490000, BrandId=1, Description="Legion Y7000P 2024 là một chiếc Laptop hứa hẹn là một trong những sự lựa chọn tuyệt vời bởi thiết kế độc đáo, cá tính cùng với hiệu năng và những thông số kĩ thuật ấn tượng. Vậy nên đừng ngần ngại lựa chọn mua Legion Y7000P 2024 tại hệ thống của hàng của LaptopAZ.vn để được trải nghiệm sự tuyệt vời của chiếc Laptop này đem lại.", StockQuantity=100, Img="https://laptopaz.vn/media/product/3174_", CategoryId=1 }
-                );
+            );
 
             modelBuilder.Entity<PaymentMethod>().HasData(
                     new PaymentMethod { PaymentMethodId=1, MethodName="Thanh toán tại cửa hàng"},

@@ -16,11 +16,15 @@ body a{
 
 .info-img {
     width: 35%;
+    overflow: hidden;
+}
+info-img img:hover {
+    transform: scale(1.1);
 }
 
-    .product .product-info {
-        display: flex;
-    }
+.product .product-info {
+    display: flex;
+}
 
         .product .product-info .info {
             height: auto;

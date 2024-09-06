@@ -14,7 +14,7 @@
     <header>
         <div class="header">
             <div class="header__logo">
-                <a href="#">
+                <a asp-area="Customer" asp-controller="Home" asp-action="Index">
                     <img src="~/images/logo_laptopaz (2).jpg" class="headder__logo--img" />
                 </a>
             </div>
@@ -26,23 +26,20 @@
                 
 
             </div>
-            <div class ="header__phone">
-                <div class="header__phone--item">
-                    <i class="bi bi-telephone-fill" style="color :red;"></i>
-                    <b style="color :red; font-size : 18px;">HOTLINE</b>
-                    <br />  
-                    <b style="font-size: 20px;">0825 233 233</b>
-                </div>
-            </div>
             <div class="header__shopcart">
                 <div class="header__shopcart--item">
-                    <a href="#"><i class="bi bi-cart-fill" style="color :red; font-size:25px;"></i></a>
+                    <a asp-action="Index" asp-controller="Cart" asp-area="Customer"><i class="bi bi-cart-fill" style="color :red; font-size:25px;"></i></a>
                     <br/>
                     <span style="font-size:16px;">
                         Giỏ hàng 
                     </span>
                 </div>
             </div>
+            <div style="margin-top: 37px;">
+                <partial name="_LoginPartial" /> 
+            </div>
+
+           
         </div>
        
     </header>
