@@ -7,13 +7,19 @@ namespace TechShop.Models
     [PrimaryKey(nameof(ProductId), nameof(OrderId))]
     public class OrderDetail
     {
-        [ForeignKey("ProductId")]
         public int ProductId { get; set; }
-        [ForeignKey("OrderId")]
+        [Required]
+        [ForeignKey("ProductId")]
+        public Product product { get; set; }
         public int OrderId { get; set; }
-        public Product? Product {  get; set; }
-        public Order? Order { get; set; }
+        [Required]
+        [ForeignKey("OrderId")]
+        public Order order { get; set; }
+       
         [Required]
         public int Quantity { get; set; }
+        [Required]
+        [Column(TypeName = "decimal(18,2)")]
+        public decimal UnitPrice { get; set; }
     }
 }
