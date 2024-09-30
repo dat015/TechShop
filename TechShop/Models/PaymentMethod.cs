@@ -12,5 +12,7 @@ namespace TechShop.Models
         [Required]
         [StringLength(100, ErrorMessage = "Method name can't exceed 100 characters")]
         public string? MethodName { get; set; }
+
+       
     }
 }

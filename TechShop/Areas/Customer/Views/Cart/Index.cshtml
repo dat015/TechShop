@@ -3,128 +3,319 @@
 @{
     Layout = "_Layout";
 
-}               
-@{
-    int count = 0;
 }
-    <div class="container">
-        <section class="h-100 h-custom">
-            <div class="container py-5 h-100">
-                <div class="row d-flex justify-content-center align-items-center h-100">
-                    <div class="col-12">
-                        <div class="card card-registration card-registration-2" style="border : none;">
-                            <div class="card-body p-0">
-                                <div class="row g-0">
-                                    <div class="col-lg-8">
-                                        <div class="p-5">
-                                            <div class="d-flex justify-content-between align-items-center mb-5">
-                                                <h1 class="fw-bold mb-0">Shopping Cart</h1>
-                                                <h6 class="mb-0 text-muted">3 items</h6>
-                                            </div>
-                                            <!-- SẢN PHẨM-->
+<style>
+    .col-lg-8 {
+        width: 100% !important;
+    }
 
-                                            <hr class="my-4">
-                                        @if(Model.ListCart != null)
+    .sumary_style {
+        padding-top: 0px !important;
+        width: 100%;
+    }
+
+    .info_order {
+        padding-top: 18px;
+        width: 60%;
+    }
+
+    #formUpdateQuantity {
+        width: 41%;
+    }
+
+    .upload_quantity {
+        display: flex;
+    }
+</style>
+<div class="container">
+    <section class="h-100 h-custom">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12">
+                    <div class="card card-registration card-registration-2" style="border : none;">
+                        <div class="card-body p-0">
+                            <div class="row g-0">
+                                <div class="col-lg-8">
+                                    <div class="p-5">
+                                        <div class="d-flex justify-content-between align-items-center mb-5">
+                                            <h1 class="fw-bold mb-0">Shopping Cart</h1>
+                                            <h6 class="mb-0 text-muted">@Model.ListCart.Count() Items</h6>
+                                        </div>
+                                        <!-- SẢN PHẨM-->
+
+                                        <hr class="my-4">
+                                        @if (Model.ListCart != null)
                                         {
-                                            
+
                                             foreach (var cartItem in Model.ListCart)
                                             {
-                                                count++;
+
                                                 <div class="row mb-4 d-flex justify-content-between align-items-center">
                                                     <div class="col-md-2 col-lg-2 col-xl-2">
-                                                        <img src="@cartItem.Product.Img"
+                                                        <img src="@cartItem.product.Img"
                                                              class="img-fluid rounded-3">
                                                     </div>
                                                     <div class="col-md-3 col-lg-3 col-xl-3">
-                                                        <h6 class="text-muted">CATECOGY</h6>
-                                                        <h6 class="mb-0">@cartItem.Product.ProductName</h6>
+
+                                                        <h6 class="mb-0">@cartItem.product.ProductName</h6>
                                                     </div>
                                                     <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
-                                                        <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
-                                                                onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
-                                                            <i class="fas fa-minus"></i>
-                                                        </button>
 
-                                                        <input id="form1"  name="quantity" value="@cartItem.count" type="number"
-                                                               class="form-control form-control-sm" />
+                                                        <form method="post" class="quantity_upload" asp-area="Customer" asp-action="UpdateQuantity" asp-controller="Cart" asp-route-id="@cartItem.productId">
+                                                            <input name="quantity" value="@cartItem.quantity" type="number" class="form-control form-control-sm" />
+                                                            <button type="submit" class="btn-primary updateQuantityBtn">
+                                                                <i class="bi bi-arrow-clockwise"></i>
+                                                            </button>
+                                                        </form>
 
-                                                        <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
-                                                                onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
-                                                            <i class="fas fa-plus"></i>
-                                                        </button>
+
                                                     </div>
                                                     <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
-                                                        <h6 class="mb-0">@cartItem.Product.Price PRICE (đ) </h6>
+                                                        <h6 class="mb-0">@cartItem.product.Price.ToString("#,##0.##") (đ) </h6>
                                                     </div>
                                                     <div class="col-md-1 col-lg-1 col-xl-1 text-end">
                                                         <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
                                                     </div>
+                                                    <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                                        <form id="formDeleteItem" asp-controller="Cart" asp-action="DeleteItem" asp-route-id="@cartItem.productId" method="post" class="d-inline">
+                                                            <button type="submit" class="btn btn-danger btn-sm mt-3 confirmDeletion">
+                                                                <i class="bi bi-trash"></i>
+                                                            </button>
+                                                        </form>
+                                                    </div>
                                                 </div>
                                             }
                                         }
-                                        
-                                            
-                                            <!--KẾT THÚC SHOW SẢN PHẨM-->
 
+
+                                        <!--KẾT THÚC SHOW SẢN PHẨM-->
+
+
+
+
+                                        <form method="post" id="formInfo" asp-area="Customer" asp-controller="Cart" asp-action="Checkout" class="p-3">
                                             <hr class="my-4">
 
-                                            <div class="pt-5">
-                                                <h6 class="mb-0">
-                                                    <a asp-controller="Home" asp-action="Index" class="text-body">
-                                                        <i class="fas fa-long-arrow-alt-left me-2"></i>Back to shop
-                                                    </a>
-                                                </h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 bg-body-tertiary">
-                                        <div class="p-5">
-                                            <h3 class="fw-bold mb-5 mt-2 pt-1">Summary</h3>
-                                            <hr class="my-4">
+                                            <div style="display: flex; justify-content: space-between;">
 
-                                            <div class="d-flex justify-content-between mb-4">
-                                                <!--SỐ LƯỢNGK SẢN PHẨM-->
-                                                <h5 class="text-uppercase">@count Item</h5>
-                                                <!--TỔNG TIỀN TẠM TÍNH-->
-                                                <h5>@Model.Total</h5>
-                                            </div>
+                                                <div class="info_order">
+                                                    <div>
+                                                        <h5 class="text-uppercase mb-3">PHUONG THỨC THANH TOÁN</h5>
+                                                        @foreach (var payment in Model.paymentMethods)
+                                                        {
+                                                            <div class="d-flex flex-row">
+                                                                <div class="d-flex align-items-center pe-2">
+                                                                    <input class="form-check-input" type="radio" name="PaymentId" id="radioNoLabel2"
+                                                                           value="@payment.PaymentMethodId" aria-label="..." />
+                                                                </div>
+                                                                <div class="rounded border d-flex w-100 p-3 align-items-center">
+                                                                    <p class="mb-0">
+                                                                        @payment.MethodName
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        }
 
 
-                                            <!--MÃ GIẢM GIÁ-->
-                                            <h5 class="text-uppercase mb-3">Give code</h5>
 
-                                            <div class="mb-5">
-                                                <div data-mdb-input-init class="form-outline">
-                                                    <input type="text" id="form3Examplea2" class="form-control form-control-lg" />
-                                                    <label class="form-label" for="form3Examplea2">Enter your code</label>
+                                                    </div>
+
+
+
+                                                    <hr class="my-4">
+
+                                                    <div class="modal-body p-4">
+                                                        <div class="row">
+                                                            <h5 class="text-uppercase mb-3">THÔNG TIN GIAO HÀNG</h5>
+
+                                                            <div class="col">
+
+                                                                <div class="form-group mb-3">
+                                                                    <label for="proviceSelect" class="form-label">Tỉnh/Thành phố*</label>
+                                                                    <select id="proviceSelect" class="form-control" name="proviceName">
+                                                                        <option selected>Chọn Tỉnh/Thành phố</option>
+                                                                        @foreach (var item in Model.listProvices)
+                                                                        {
+                                                                            <option  value="@item.code">@item.name</option>
+                                                                        }
+                                                                    </select>
+                                                                </div>
+
+                                                                <div class="form-group mb-3">
+                                                                    <label for="districtSelect" class="form-label">Quận/Huyện*</label>
+                                                                    <select id="districtSelect" class="form-control" name="districtName" disabled>
+                                                                        <option selected>Chọn Quận/Huyện</option>
+                                                                    </select>
+                                                                </div>
+
+                                                                <div class="form-group mb-3">
+                                                                    <label for="wardSelect" class="form-label">Phường/Xã*</label>
+                                                                    <select id="wardSelect" class="form-control" name="wardName" disabled>
+                                                                        <option selected>Chọn Phường/Xã</option>
+                                                                    </select>
+                                                                </div>
+
+                                                                <div class="form-group mb-3">
+                                                                    <label for="houseSelect" class="form-label">Địa chỉ nhà*</label>
+                                                                    <input id="houseSelect" type="text" class="form-control" name="houseAddress" placeholder="Địa chỉ nhà" aria-describedby="addon-wrapping">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col">
+                                                                <div class="form-group mb-3">
+                                                                    <label for="nameSelect" class="form-label">Họ và Tên*</label>
+                                                                    <input id="nameSelect" type="text" class="form-control" name="name" placeholder="Họ và Tên" aria-describedby="addon-wrapping">
+                                                                </div>
+
+                                                                <div class="form-group mb-3">
+                                                                    <label for="phoneSelect" class="form-label">Số Điện Thoại*</label>
+                                                                    <input id="phoneSelect" type="text" class="form-control" name="phone" placeholder="Số Điện Thoại" aria-describedby="addon-wrapping">
+                                                                </div>
+
+                                                                <div class="form-group mb-3">
+                                                                    <label for="statusSelect" class="form-label">Ghi chú (tối đa 200 kí tự)</label>
+                                                                    <div class="textarea-wrapper">
+                                                                        <textarea name="note" id="statusSelect" class="form-control" maxlength="200" placeholder="Hãy gọi tôi khi chuẩn bị hàng xong" rows="4"></textarea>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
+                                                <div style="width: 36%;">
+
+                                                    <div class="sumary_style">
+                                                        <h3 class="fw-bold mb-5 mt-2 pt-1">
+                                                            TỔNG TIỀN
+                                                        </h3>
+                                                        <hr class="my-4">
+                                                        <div>
+                                                            <p>
+                                                                <b> <span class="text-success">@Model.Total.ToString("#,##0.##") (đ)</span></b>
+                                                            </p>
+                                                        </div>
+
+
+
+
+
+
+
+                                                        <hr class="my-4">
+
+
+
+                                                        <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-danger btn-block btn-lg"
+                                                                style="padding: 0.5rem 7rem;     padding-left: 137px;">
+                                                            Đặt Hàng
+                                                        </button>
+
+                                                    </div>
+                                                </div>
+
                                             </div>
 
-                                            <hr class="my-4">
 
-                                            <div class="d-flex justify-content-between mb-5">
-                                                <h5 class="text-uppercase">Total price</h5>
-                                                <!--TỔNG TIỀN CUỐI CÙNG-->
-                                                <h5>@Model.Total</h5>
-                                            </div>
-
-                                            <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-dark btn-block btn-lg"
-                                                    data-mdb-ripple-color="dark">
-                                                BUY NOW
-                                            </button>
+                                        </form>
 
 
+
+
+
+
+
+                                        <div class="pt-5">
+                                            <h6 class="mb-0">
+                                                <a asp-controller="Home" asp-action="Index" class="text-body">
+                                                    <i class="fas fa-long-arrow-alt-left me-2"></i>Back to shop
+                                                </a>
+                                            </h6>
                                         </div>
                                     </div>
                                 </div>
 
-
                             </div>
+
+
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-    </div>
+</div>
+
+
+<script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+
+        var districtSelect = document.getElementById("districtSelect");
+        var proviceSelect = document.getElementById("proviceSelect");
+        var wardSelect = document.getElementById("wardSelect");
+
+
+
+        proviceSelect.addEventListener('change', function () {
+            console.log("Provice select changed"); // Kiểm tra xem sự kiện có được kích hoạt không
+            var provinceId = this.value;
+
+            if (provinceId) {
+                console.log(provinceId);
+                $.ajax({
+                    url: '@Url.Action("GetDistrictsByProvice", "Cart", new { Area = "Customer" })',
+                    type: "GET",
+                    data: { provinceId: provinceId },
+                    success: function (data) {
+                        console.log("Ajax request succeeded");
+                        districtSelect.innerHTML = "<option selected>Quận/Huyện</option>";
+                        $.each(data, function (i, district) {
+                            var option = document.createElement('option');
+
+                            option.text = district.name;
+                            option.value = district.code;
+
+
+                            option.setAttribute('name', 'districtName');
+                            districtSelect.append(option);
+                        });
+                        districtSelect.disabled = false;
+                    },
+                    error: function (xhr, status, error) {
+                        console.error("Ajax request failed: ", status, error); // Xử lý lỗi
+                    }
+                });
+                wardSelect.disabled = true;
+
+            }
+        });
+
+        districtSelect.addEventListener('change', function () {
+            var districtId = this.value;
+            console.log(districtId);
+            if (districtId) {
+                $.ajax({
+                    url: '@Url.Action("GetWardsByDistrict", "Cart", new { Area = "Customer" })',
+                    type: 'GET',
+                    data: { districtId: districtId },
+                    success: function (data) {
+                        wardSelect.innerHTML = '<option selected>Phường/Xã</option>';
+                        $.each(data, function (i, ward) {
+                            var option = document.createElement('option');
+                            option.text = ward.name;
+                            option.value = ward.code;
+                            option.setAttribute('name', 'wardName');
+                            wardSelect.append(option);
+                        });
+                        wardSelect.disabled = false;
+                    }
+                });
+            } else {
+                wardSelect.disabled = true;
+            }
+        });
+    });
+</script>
+
+
 

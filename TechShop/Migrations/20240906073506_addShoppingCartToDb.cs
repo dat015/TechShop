@@ -16,19 +16,13 @@ namespace TechShop.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"), // Cấu hình Id tự động tăng
-                    ProductId = table.Column<int>(type: "int", nullable: false),
-                    count = table.Column<int>(type: "int", nullable: false),
+                  
                     UserId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_ShoppingCarts", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_ShoppingCarts_Products_ProductId",
-                        column: x => x.ProductId,
-                        principalTable: "Products",
-                        principalColumn: "ProductId",
-                        onDelete: ReferentialAction.Cascade);
+                 
                     table.ForeignKey(
                         name: "FK_ShoppingCarts_User_Id",
                         column: x => x.UserId,

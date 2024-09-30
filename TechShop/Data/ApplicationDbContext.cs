@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace TechShop.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base (options)
         {
@@ -20,6 +20,11 @@ namespace TechShop.Data
         public DbSet<OrderDetail> DetailsOrders { get; set; }
         public DbSet<User> User { get; set; }
         public DbSet<ShoppingCart> ShoppingCarts { get; set; }
+
+        public DbSet<Address> Addresses { get; set; }
+        public DbSet<DetailAddress> DetailAddresses { get; set; }
+        public DbSet<CartDetail> CartDetails { get; set; }
+
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -53,14 +58,10 @@ namespace TechShop.Data
                     new PaymentMethod { PaymentMethodId=4, MethodName="Thanh toán trả góp" }
                 );
 
-            modelBuilder.Entity<Order>().HasData(
-                    new Order { OrderId=1, OrderDate=new DateTime(2024, 07, 14), Status="Đã xác nhận", TotalAmount=1, PaymentMethodId=1 }
-                );
+           
+            modelBuilder.Entity<CartDetail>()
+       .HasKey(cd => new { cd.CartId, cd.productId });
 
-            modelBuilder.Entity<OrderDetail>().HasData(
-                    new OrderDetail { OrderId=1, ProductId=1, Quantity=2 }
-                );
-            
         }
     }
 }
