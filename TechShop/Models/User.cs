@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Identity;
 
 namespace TechShop.Models
 {
@@ -25,7 +26,10 @@ namespace TechShop.Models
         [StringLength(10, ErrorMessage = "Name of banch can't exceed 10 characters")]
         public string? PhoneNumber { get; set; }
         [Required]
-        public Boolean role { get; set; }
+        public int RoleId { get; set; } 
+
+        [ForeignKey("RoleId")]
+        public Role Role { get; set; }
         [Required]
         [StringLength(50, ErrorMessage = "Name of banch can't exceed 50 characters")]
         public string Password { get; set; }

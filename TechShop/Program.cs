@@ -39,6 +39,8 @@ builder.Services.AddSession(options =>
 
 
 
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -60,12 +62,12 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
-    name: "Areas",
+    name: "areas",
     pattern: "{area:exists}/{controller=Admin}/{action=Index}/{id?}");
 
 app.MapControllerRoute(
     name: "areas",
-    pattern: "{area=Customer}/{controller=Cart}/{action=Index}/{id?}");
+    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
 
 
 app.Run();

@@ -7,11 +7,16 @@ using TechShop.Models;
 using TechShop.Helper;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
+using TechShop.Utility;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 
 namespace TechShop.Areas.Customer.Controllers
 {
     [Area("Customer")]
+
+
+
 
     public class UserController : Controller
     {
@@ -27,6 +32,7 @@ namespace TechShop.Areas.Customer.Controllers
         [HttpGet]
         public IActionResult Register()
         {
+           
             return View();
         }
         [HttpGet]
@@ -49,12 +55,15 @@ namespace TechShop.Areas.Customer.Controllers
             {
                 try
                 {
+                    var role = _db.Roles.Where(r => r.roleId == 1).FirstOrDefault(); // mac dinh la customer
+                    model.role = role;
+                    model.roleId = role.roleId;
+                    Console.WriteLine(role.roleId + " " + role.roleName);
                     var customer = _mapper.Map<User>(model); // map model sang kieu User bang automapper
                     customer.RandomKey = MyUtil.GenerateRandomKey();
 
                     // mã hóa mật khấu => MD5
                     customer.Password = model.Password.ToMd5Hash(customer.RandomKey);
-
 
                     _db.Add(customer);
                     _db.SaveChanges();
@@ -86,12 +95,14 @@ namespace TechShop.Areas.Customer.Controllers
             ViewBag.ReturnUrl = ReturnUrl;
             if (ModelState.IsValid)
             {
+            
                 //Kiem tra tai khoan
                 var customer = _db.User.SingleOrDefault(customer => customer.Email == model.Email);
                 if (customer == null)
                 {
                     ModelState.AddModelError("Error", "Sai thông tin đăng nhập");
                 }
+               
                 else
                 {
                     if (customer.Password != model.Password.ToMd5Hash(customer.RandomKey))
@@ -100,20 +111,20 @@ namespace TechShop.Areas.Customer.Controllers
                     }
                     else
                     {
+                        var role = _db.Roles.Where(r => r.roleId == customer.RoleId).FirstOrDefault();
                         var claims = new List<Claim>
                         {
                             new Claim(ClaimTypes.Email, customer.Email),
-                            new Claim(ClaimTypes.NameIdentifier, customer.Id.ToString())
+                            new Claim(ClaimTypes.NameIdentifier, customer.Id.ToString()),
+                            new Claim(ClaimTypes.Role, role.roleName)
                         };
-
-                        var claimIdentity = new ClaimsIdentity(claims, "login");// danh tính người dùng qua 1 tập hợp các claim được liên kết với quá trình đăng nhập
+                        var claimIdentity = new ClaimsIdentity(claims, "ApplicationCookie");// danh tính người dùng qua 1 tập hợp các claim được liên kết với quá trình đăng nhập
                         var claimsPrincipal = new ClaimsPrincipal(claimIdentity);
+                        await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, claimsPrincipal); // yêu cầu sử dụng xác thực cookie
 
-                        await HttpContext.SignInAsync(claimsPrincipal);
-
-                        if (Url.IsLocalUrl(ReturnUrl))
+                        if (role.roleName == SD.Role_Admin)
                         {
-                            return Redirect(ReturnUrl);
+                            return Redirect("/Admin/Admin/Index");
                         }
                         else
                         {

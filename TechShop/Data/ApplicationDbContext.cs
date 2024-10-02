@@ -18,12 +18,15 @@ namespace TechShop.Data
         public DbSet<PaymentMethod> PaymentMethods { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetail> DetailsOrders { get; set; }
+
         public DbSet<User> User { get; set; }
         public DbSet<ShoppingCart> ShoppingCarts { get; set; }
 
         public DbSet<Address> Addresses { get; set; }
         public DbSet<DetailAddress> DetailAddresses { get; set; }
         public DbSet<CartDetail> CartDetails { get; set; }
+        public DbSet<Role> Roles { get; set; }
+
 
 
 

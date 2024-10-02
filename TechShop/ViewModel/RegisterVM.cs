@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using TechShop.Models;
 
 namespace TechShop.ViewModel
 {
@@ -24,7 +25,8 @@ namespace TechShop.ViewModel
         [StringLength(10, ErrorMessage = "Name of banch can't exceed 10 characters")]
         public string? PhoneNumber { get; set; }
         [Required]
-        public Boolean role { get; set; }
+        public int roleId { get; set; }
+        public Role role { get; set; }
         [Required]
         [StringLength(50, ErrorMessage = "Name of banch can't exceed 50 characters")]
         public string Password { get; set; }
