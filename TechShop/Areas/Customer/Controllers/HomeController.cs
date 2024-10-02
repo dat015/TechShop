@@ -4,10 +4,16 @@ using TechShop.Models;
 using TechShop.ViewModel;
 using TechShop.Data;
 using Microsoft.EntityFrameworkCore;
+using TechShop.Helper;
+using Microsoft.AspNetCore.Authorization;
 
 namespace TechShop.Controllers
 {
     [Area("Customer")]
+    [Authorize(Roles = "Customer")]
+    
+
+
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -23,6 +29,11 @@ namespace TechShop.Controllers
         {
             List<Category> list_cate = await _db.Categories.ToListAsync();
             List<Product> list_product = await _db.Products.ToListAsync();
+            List<Role> roles = await _db.Roles.ToListAsync();
+            foreach(var item in roles)
+            {
+                Console.WriteLine(item.roleName);
+            }
             var viewModel = new HomeViewModel(list_cate, list_product);
 
             return View(viewModel);

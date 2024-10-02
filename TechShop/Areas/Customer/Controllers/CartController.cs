@@ -16,6 +16,9 @@ namespace TechShop.Areas.Customer.Controllers
 {
     [Area("Customer")]
     [Authorize]
+    [Authorize(Roles = "Customer")]
+
+
 
 
     public class CartController : Controller
