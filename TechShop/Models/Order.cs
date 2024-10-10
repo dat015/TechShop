@@ -8,7 +8,6 @@ namespace TechShop.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Key]
         public int OrderId { get; set; }
-
         public int UserId { get; set; }
         [ForeignKey("UserId")]
         public User user { get; set; }

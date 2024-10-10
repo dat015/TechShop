@@ -1,0 +1,48 @@
+﻿@model TechShop.ViewModel.OrderVM;
+@{
+}
+
+<table class="table table-hover">
+    <div class="p-3">
+        <h2>MANAGE ORDER</h2>
+
+    </div>
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Status Payment</th>
+            <th scope="col">Status Shipping</th>
+            <th scope="col">Note</th>
+            <th scope="col">Order Date</th>
+            <th scope="col">Payment Date</th>
+            <th scope="col">Price Total</th>
+            <th scope="col">Manage</th>
+
+
+        </tr>
+    </thead>
+    @foreach (var item in Model.orders)
+    {
+        <tr>
+            <th scope="row">@item.OrderId</th>
+            <td>@item.StatusPayment</td>
+            <td>@item.StatusShipping</td>
+            <td>@item.Note</td>
+            <td>@item.OrderDate</td>
+            <td>@item.PaymentDate</td>
+            <td>@item.TotalAmount</td>
+            <td>
+                <a asp-controller="Order" asp-action="Edit" asp-route-id="@item.OrderId"
+                   class="btn btn-warning btn-sm mt-3">
+                    <i class="bi bi-pencil-square"></i> Sửa
+                </a>
+
+                <a asp-controller="Order" asp-action="Delete" asp-route-id="@item.OrderId"
+                   class="btn btn-danger btn-sm mt-3 confirmDeletion">
+                    <i class="bi bi-trash"></i> Xóa
+                </a>
+            </td>
+        </tr>
+    }
+
+</table>
