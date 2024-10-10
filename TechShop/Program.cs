@@ -28,7 +28,7 @@ builder.Services.AddAutoMapper(typeof(AutomapperProfile));
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(option=>
 {
     option.LoginPath = "/Customer/User/Login";
-    option.AccessDeniedPath = "/AccessDenied";
+    option.AccessDeniedPath = "/Customer/User/Login";
 });
 builder.Services.AddSession(options =>
 {
@@ -68,6 +68,7 @@ app.MapControllerRoute(
 app.MapControllerRoute(
     name: "areas",
     pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
+
 
 
 app.Run();

@@ -59,7 +59,7 @@ namespace TechShop.Areas.Customer.Controllers
                          .FirstOrDefaultAsync();
 
             var cartItems = (cartController != null)
-                ? await _db.CartDetails.Include(cd => cd.product) // Sử dụng Include để lấy thông tin product
+                ? await _db.CartDetails.Include(cd => cd.product) 
                                       .Where(c => c.CartId == cartController.Id)
                                       .ToListAsync()
                 : new List<CartDetail>();
