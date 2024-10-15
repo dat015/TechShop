@@ -23,10 +23,10 @@ namespace TechShop.Areas.Admin.Controllers
 
         public async Task<OrderVM> GetOrder()
         {
-            var orders = await _db.Orders.ToListAsync();
+            
             return new OrderVM()
             {
-                orders = orders
+                orders = await _db.Orders.ToListAsync()
             };
         }
 
@@ -39,14 +39,54 @@ namespace TechShop.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Delete(int OrderId)
         {
-            var order = await _db.Orders.Where(o => o.OrderId == OrderId).FirstOrDefaultAsync();
-            _db.Orders.Remove(order);
-            await _db.SaveChangesAsync();
-            return View();
+            try
+            {
+                Console.WriteLine("ok");
+                var order = await _db.Orders.FirstOrDefaultAsync(o => o.OrderId == OrderId);
+
+                if (order == null)
+                {
+                    return Json(new { success = false, message = "Không tìm thấy đơn hàng cần xóa." });
+                }
+
+                _db.Orders.Remove(order);
+                await _db.SaveChangesAsync();
+
+                var orders = await GetOrder();
+                return Json(new { success = true, orders = orders.orders });
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = "Đã xảy ra lỗi khi xóa.", error = ex.Message });
+            }
         }
-        public async Task<IActionResult> Edit()
+
+        [HttpPost]
+        public async Task<IActionResult> Update(int id, string statusPayment, string statusShipping, string Note)
         {
-            return RedirectToAction("Index");
+            if(statusPayment == "" || statusShipping == "" || Note == "")
+            {
+                return Json(new { success = false, message = "Dữ liệu không hợp lệ!"});
+            }
+            try
+            {
+                var order = await _db.Orders.FindAsync(id);
+                if (order == null) { 
+                    return Json(new { success = false,  message = "Không tìm thấy đơn hàng cần cập nhật." });
+                }
+
+                order.StatusPayment = statusPayment;
+                order.StatusShipping = statusShipping;
+                order.Note = Note;
+
+                await _db.SaveChangesAsync();
+
+                var orders = await GetOrder();
+                return Json(new { success = true, orders = orders.orders });
+            }
+            catch (Exception ex) {
+                return Json(new { success = false, message = "Đã xảy ra lỗi khi cập nhật.", error = ex.Message });
+            }
         }
 
 

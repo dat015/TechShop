@@ -15,11 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechShop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+604683a067544a12844cd2ebc9638773364d4e0b")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92427fc9b7cca6454029a77ccd3a1c3b7b3cdcad")]
->>>>>>> dat1
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+774dcbdfeef81438017c7ac0b231953b2900ce1b")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechShop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechShop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -59,7 +59,7 @@ namespace TechShop.Areas.Customer.Controllers
                          .FirstOrDefaultAsync();
 
             var cartItems = (cartController != null)
-                ? await _db.CartDetails.Include(cd => cd.product) 
+                ? await _db.CartDetails.Include(cd => cd.product)
                                       .Where(c => c.CartId == cartController.Id)
                                       .ToListAsync()
                 : new List<CartDetail>();
@@ -105,6 +105,8 @@ namespace TechShop.Areas.Customer.Controllers
                 _db.ShoppingCarts.Add(newCart);
                 await _db.SaveChangesAsync();
 
+                cartVM.cart = newCart;
+                cartVM.ListCart = new List<CartDetail>();
                 return View(cartVM);
             }
             else
@@ -117,6 +119,16 @@ namespace TechShop.Areas.Customer.Controllers
         public async Task<IActionResult> AddToCart(int id, int quantity = 1)
         {
             var cartVM = await GetCartVMAsync();
+            if (cartVM.cart == null)
+            {
+                cartVM.cart = new ShoppingCart()
+                {
+                    UserId = (int)userId
+                };
+
+                _db.ShoppingCarts.Add(cartVM.cart);
+                await _db.SaveChangesAsync();
+            }
             var item = cartVM.ListCart.FirstOrDefault(p => p.productId == id);//ktra xem da co san pham nay trong gio hang chua
             if (item == null)
             {
@@ -226,8 +238,8 @@ namespace TechShop.Areas.Customer.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                 
-                  
+
+
                     var cartVM = await GetCartVMAsync();
                     Order order = new Order
                     {
@@ -251,7 +263,7 @@ namespace TechShop.Areas.Customer.Controllers
                     await _db.Orders.AddAsync(order);
                     await _db.SaveChangesAsync();
 
-                    
+
                     var detailsCart = await _db.CartDetails.Where(p => p.CartId == cartVM.cart.Id).ToListAsync();
                     List<OrderDetail> detailsOrder = new List<OrderDetail>();
                     foreach (var item in detailsCart)
